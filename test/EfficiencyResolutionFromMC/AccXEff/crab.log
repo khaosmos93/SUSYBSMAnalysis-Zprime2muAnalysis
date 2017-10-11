@@ -1,0 +1,197 @@
+DEBUG 2017-10-11 09:35:44,833: 	 Executing command: 'tasks'
+DEBUG 2017-10-11 09:35:44,833: 	 Found CRAB cache file /u/user/msoh/.crab3
+DEBUG 2017-10-11 09:35:44,841: 	 Checking credentials
+DEBUG 2017-10-11 09:35:44,841: 	 Found proxy file /tmp/x509up_u41056
+DEBUG 2017-10-11 09:35:44,841: 	 Getting proxy life time left
+DEBUG 2017-10-11 09:35:45,347: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u41056 -timeleft
+ output : 361690
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:45,852: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u41056 -actimeleft
+ output : 361690
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:45,852: 	 Proxy valid for 100:28:10 hours
+DEBUG 2017-10-11 09:35:45,963: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=moh/CN=805491/CN=Minseok Oh
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:45,963: 	 Checking credentials
+DEBUG 2017-10-11 09:35:45,963: 	 Found proxy file /tmp/x509up_u41056
+DEBUG 2017-10-11 09:35:45,963: 	 Getting proxy life time left
+DEBUG 2017-10-11 09:35:46,467: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u41056 -timeleft
+ output : 361689
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:46,972: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u41056 -actimeleft
+ output : 361689
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:46,973: 	 Proxy valid for 100:28:09 hours
+DEBUG 2017-10-11 09:35:49,321: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+DEBUG 2017-10-11 09:35:49,431: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=moh/CN=805491/CN=Minseok Oh
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:49,432: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2017-10-11 09:35:49,432: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=moh/CN=805491/CN=Minseok Oh_cmsweb.cern.ch for credential name
+DEBUG 2017-10-11 09:35:51,547: 	 Executing : 
+ command : myproxy-info -l 7c078b80c18199a17359f34fbb0c2f87fa5a73c0 -s myproxy.cern.ch
+ output : username: 7c078b80c18199a17359f34fbb0c2f87fa5a73c0
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=moh/CN=805491/CN=Minseok Oh
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119|0108|0105|0109).cern.ch
+  timeleft: 706:35:44  (29.4 days)
+
+ error: 
+ retcode : 0
+DEBUG 2017-10-11 09:35:51,549: 	 Myproxy is valid: 2543744
+DEBUG 2017-10-11 09:35:51,549: 	 Command use: tasks
+DEBUG 2017-10-11 09:35:51,549: 	 Options use: []
+DEBUG 2017-10-11 09:35:53,507: 	 CRABClient version: 3.3.1707.patch1
+DEBUG 2017-10-11 09:35:53,507: 	 Instance is prod
+DEBUG 2017-10-11 09:35:53,507: 	 Server base url is cmsweb.cern.ch
+DEBUG 2017-10-11 09:35:53,507: 	 Command url /crabserver/prod/workflow
+INFO 2017-10-11 09:35:56,937: 	 
+List of tasks from 2017-09-11 until 2017-10-11
+INFO 2017-10-11 09:35:56,938: 	 ================================================================================
+INFO 2017-10-11 09:35:56,938: 	 NAME								STATUS
+INFO 2017-10-11 09:35:56,938: 	 ================================================================================
+INFO 2017-10-11 09:35:56,938: 	 171010_143545:moh_crab_AccXEff_yesWei_yesRand_20171010_dyInf
+								SUBMITTED
+INFO 2017-10-11 09:35:56,939: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,939: 	 171010_143517:moh_crab_AccXEff_yesWei_noRand_20171010_dyInf
+								SUBMITTED
+INFO 2017-10-11 09:35:56,939: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,939: 	 171010_143516:moh_crab_AccXEff_yesWei_yesRand_20171010_dy6000
+								SUBMITTED
+INFO 2017-10-11 09:35:56,940: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,940: 	 171010_143450:moh_crab_AccXEff_noWei_noRand_20171010_dyInf
+								SUBMITTED
+INFO 2017-10-11 09:35:56,940: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,940: 	 171010_143446:moh_crab_AccXEff_yesWei_yesRand_20171010_dy4500
+								SUBMITTED
+INFO 2017-10-11 09:35:56,940: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,941: 	 171010_143446:moh_crab_AccXEff_yesWei_noRand_20171010_dy6000
+								SUBMITTED
+INFO 2017-10-11 09:35:56,941: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,941: 	 171010_143423:moh_crab_AccXEff_noWei_noRand_20171010_dy6000
+								SUBMITTED
+INFO 2017-10-11 09:35:56,941: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,941: 	 171010_143418:moh_crab_AccXEff_yesWei_yesRand_20171010_dy3500
+								SUBMITTED
+INFO 2017-10-11 09:35:56,942: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,942: 	 171010_143418:moh_crab_AccXEff_yesWei_noRand_20171010_dy4500
+								SUBMITTED
+INFO 2017-10-11 09:35:56,942: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,942: 	 171010_143357:moh_crab_AccXEff_noWei_noRand_20171010_dy4500
+								SUBMITTED
+INFO 2017-10-11 09:35:56,942: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,942: 	 171010_143351:moh_crab_AccXEff_yesWei_yesRand_20171010_dy2300
+								SUBMITTED
+INFO 2017-10-11 09:35:56,942: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,942: 	 171010_143350:moh_crab_AccXEff_yesWei_noRand_20171010_dy3500
+								SUBMITTED
+INFO 2017-10-11 09:35:56,942: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,942: 	 171010_143328:moh_crab_AccXEff_noWei_noRand_20171010_dy3500
+								SUBMITTED
+INFO 2017-10-11 09:35:56,943: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,943: 	 171010_143324:moh_crab_AccXEff_yesWei_noRand_20171010_dy2300
+								SUBMITTED
+INFO 2017-10-11 09:35:56,943: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,943: 	 171010_143323:moh_crab_AccXEff_yesWei_yesRand_20171010_dy1400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,943: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,943: 	 171010_143301:moh_crab_AccXEff_noWei_noRand_20171010_dy2300
+								SUBMITTED
+INFO 2017-10-11 09:35:56,943: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,943: 	 171010_143258:moh_crab_AccXEff_yesWei_noRand_20171010_dy1400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,943: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,943: 	 171010_143256:moh_crab_AccXEff_yesWei_yesRand_20171010_dy800
+								SUBMITTED
+INFO 2017-10-11 09:35:56,943: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,944: 	 171010_143233:moh_crab_AccXEff_noWei_noRand_20171010_dy1400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,944: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,944: 	 171010_143231:moh_crab_AccXEff_yesWei_noRand_20171010_dy800
+								SUBMITTED
+INFO 2017-10-11 09:35:56,944: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,944: 	 171010_143226:moh_crab_AccXEff_yesWei_yesRand_20171010_dy400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,944: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,944: 	 171010_143206:moh_crab_AccXEff_noWei_noRand_20171010_dy800
+								SUBMITTED
+INFO 2017-10-11 09:35:56,944: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,944: 	 171010_143203:moh_crab_AccXEff_yesWei_noRand_20171010_dy400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,944: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,944: 	 171010_143200:moh_crab_AccXEff_yesWei_yesRand_20171010_dy200
+								SUBMITTED
+INFO 2017-10-11 09:35:56,945: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,945: 	 171010_143139:moh_crab_AccXEff_noWei_noRand_20171010_dy400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,945: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,945: 	 171010_143137:moh_crab_AccXEff_yesWei_noRand_20171010_dy200
+								SUBMITTED
+INFO 2017-10-11 09:35:56,945: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,945: 	 171010_143131:moh_crab_AccXEff_yesWei_yesRand_20171010_dy120
+								SUBMITTED
+INFO 2017-10-11 09:35:56,945: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,945: 	 171010_143111:moh_crab_AccXEff_yesWei_noRand_20171010_dy120
+								SUBMITTED
+INFO 2017-10-11 09:35:56,945: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,945: 	 171010_143107:moh_crab_AccXEff_noWei_noRand_20171010_dy200
+								SUBMITTED
+INFO 2017-10-11 09:35:56,945: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,945: 	 171010_143041:moh_crab_AccXEff_noWei_noRand_20171010_dy120
+								SUBMITTED
+INFO 2017-10-11 09:35:56,946: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,946: 	 171010_141712:moh_crab_AccXEff_yesWei_yesRand_20171010_dy2300
+								SUBMITTED
+INFO 2017-10-11 09:35:56,946: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,946: 	 171010_141709:moh_crab_AccXEff_yesWei_yesRand_20171010_dy1400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,946: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,946: 	 171010_141708:moh_crab_AccXEff_yesWei_noRand_20171010_dy2300
+								SUBMITTED
+INFO 2017-10-11 09:35:56,946: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,946: 	 171010_141642:moh_crab_AccXEff_yesWei_noRand_20171010_dy800
+								SUBMITTED
+INFO 2017-10-11 09:35:56,946: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,946: 	 171010_141642:moh_crab_AccXEff_yesWei_noRand_20171010_dy1400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,946: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,947: 	 171010_141638:moh_crab_AccXEff_yesWei_yesRand_20171010_dy200
+								SUBMITTED
+INFO 2017-10-11 09:35:56,947: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,947: 	 171010_141615:moh_crab_AccXEff_yesWei_noRand_20171010_dy400
+								SUBMITTED
+INFO 2017-10-11 09:35:56,947: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,947: 	 171010_141612:moh_crab_AccXEff_yesWei_noRand_20171010_dy200
+								SUBMITTED
+INFO 2017-10-11 09:35:56,947: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,947: 	 171010_141612:moh_crab_AccXEff_noWei_noRand_20171010_dy120
+								KILLED
+INFO 2017-10-11 09:35:56,947: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,947: 	 170913_014421:moh_crab_RateStudy2017_MET_Run2016Hv2_Old_GJ_20170913
+								KILLED
+INFO 2017-10-11 09:35:56,947: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,947: 	 170913_014359:moh_crab_RateStudy2017_SingleMuon_Run2016Hv2_Old_GJ_20170913
+								SUBMITTED
+INFO 2017-10-11 09:35:56,948: 	 --------------------------------------------------------------------------------
+INFO 2017-10-11 09:35:56,948: 	 
+
+INFO 2017-10-11 09:35:56,955: 	 Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/crab.log

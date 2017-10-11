@@ -14,6 +14,129 @@
 #include "DataFormats/PatCandidates/interface/TriggerObjectStandAlone.h"
 #include "DataFormats/PatCandidates/interface/PackedTriggerPrescales.h"
 
+#include "TRandom3.h"  // For random weight
+
+Double_t GetWeight(Double_t p1, Double_t e1, Double_t p2, Double_t e2, const bool useRandom) {
+  // -- ( [0]+[1]*x ) / ( [2]+[3]*x ) = Data / MC, parameters from Federica -- //
+  Double_t p0_B = 0.9797;  Double_t p0_B_err = 0.0009103;
+  Double_t p1_B = -1.994e-05;  Double_t p1_B_err = 5.878e-06;
+  Double_t p2_B = 0.9872;  Double_t p2_B_err = 0.001125;
+  Double_t p3_B = -2.902e-06;  Double_t p3_B_err = 3.422e-06;
+
+  Double_t p0_E = 0.9837;  Double_t p0_E_err = 0.001886;
+  Double_t p1_E = -4.897e-05;  Double_t p1_E_err = 4.768e-06;
+  Double_t p2_E = 0.9936;  Double_t p2_E_err = 0.002392;
+  Double_t p3_E = -1.796e-05;  Double_t p3_E_err = 4.757e-06;
+
+  //std::cout << "\nmuon1 : " << p1 << ", " << e1 << "\tmuon2 : " << p2 << ", " << e2 << std::endl;
+
+  // muon 1
+  Double_t weight1 = 1.0;
+  if ( fabs(e1)<=1.2 ) { // Barrel
+    //std::cout << "1, Barrel" << std::endl;
+    if ( p1 < 100 )
+      weight1 = 1.0;
+
+    else if ( !(p1 < 100) ) {
+      Double_t theSF    = (p0_B + p1_B*p1) / (p2_B + p3_B*p1);
+      Double_t tempEff1 = (p0_B + p1_B*p1);
+      Double_t tempEff2 = (p2_B + p3_B*p1);
+      Double_t tempErr1 = (p0_B_err + p1_B_err*p1);
+      Double_t tempErr2 = (p2_B_err + p3_B_err*p1);
+      Double_t theErr   = (tempEff1/tempEff2) * sqrt( (tempErr1/tempEff1)*(tempErr1/tempEff1) + (tempErr2/tempEff2)*(tempErr2/tempEff2) );
+      //std::cout << "\tSF = " << theSF << "\t" << "Err = " << theErr << std::endl;
+      if (useRandom) {
+        TRandom3 *r = new TRandom3(0);
+        Double_t randSF = r->Gaus(theSF, theErr);
+        //std::cout << "\trandSF = " << randSF << std::endl;
+        weight1 = randSF;
+      }
+      else if (!useRandom) {
+        weight1 = theSF;
+      }
+    }
+  }
+  else if( !(fabs(e1)<=1.2) ) { // Endcap
+    //std::cout << "1, Endcap" << std::endl;
+    if ( p1 < 275 )
+      weight1 = 1.0;
+
+    else if ( !(p1 < 275) ){
+      Double_t theSF    = (p0_E + p1_E*p1) / (p2_E + p3_E*p1);
+      Double_t tempEff1 = (p0_E + p1_E*p1);
+      Double_t tempEff2 = (p2_E + p3_E*p1);
+      Double_t tempErr1 = (p0_E_err + p1_E_err*p1);
+      Double_t tempErr2 = (p2_E_err + p3_E_err*p1);
+      Double_t theErr   = (tempEff1/tempEff2) * sqrt( (tempErr1/tempEff1)*(tempErr1/tempEff1) + (tempErr2/tempEff2)*(tempErr2/tempEff2) );
+      //std::cout << "\tSF = " << theSF << "\t" << "Err = " << theErr << std::endl;
+      if (useRandom) {
+        TRandom3 *r = new TRandom3(0);
+        Double_t randSF = r->Gaus(theSF, theErr);
+        //std::cout << "\trandSF = " << randSF << std::endl;
+        weight1 = randSF;
+      }
+      else if (!useRandom) {
+        weight1 = theSF;
+      }
+    }
+  }
+  //std::cout << "\t\tweight1 = " << weight1 << std::endl;
+
+  // muon 2
+  Double_t weight2 = 1.0;
+  if ( fabs(e2)<=1.2 ) { // Barrel
+    //std::cout << "2, Barrel" << std::endl;
+    if ( p2 < 100 )
+      weight2 = 1.0;
+
+    else if ( !(p2 < 100) ){
+      Double_t theSF    = (p0_B + p1_B*p2) / (p2_B + p3_B*p2);
+      Double_t tempEff1 = (p0_B + p1_B*p2);
+      Double_t tempEff2 = (p2_B + p3_B*p2);
+      Double_t tempErr1 = (p0_B_err + p1_B_err*p2);
+      Double_t tempErr2 = (p2_B_err + p3_B_err*p2);
+      Double_t theErr   = (tempEff1/tempEff2) * sqrt( (tempErr1/tempEff1)*(tempErr1/tempEff1) + (tempErr2/tempEff2)*(tempErr2/tempEff2) );
+      //std::cout << "\tSF = " << theSF << "\t" << "Err = " << theErr << std::endl;
+      if (useRandom) {
+        TRandom3 *r = new TRandom3(0);
+        Double_t randSF = r->Gaus(theSF, theErr);
+        //std::cout << "\trandSF = " << randSF << std::endl;
+        weight2 = randSF;
+      }
+      else if (!useRandom) {
+        weight2 = theSF;
+      }
+    }
+  }
+  else if( !(fabs(e2)<=1.2) ) { // Endcap
+    //std::cout << "2, Endcap" << std::endl;
+    if ( p2 < 275 )
+      weight2 = 1.0;
+
+    else if ( !(p2 < 275) ){
+      Double_t theSF    = (p0_E + p1_E*p2) / (p2_E + p3_E*p2);
+      Double_t tempEff1 = (p0_E + p1_E*p2);
+      Double_t tempEff2 = (p2_E + p3_E*p2);
+      Double_t tempErr1 = (p0_E_err + p1_E_err*p2);
+      Double_t tempErr2 = (p2_E_err + p3_E_err*p2);
+      Double_t theErr   = (tempEff1/tempEff2) * sqrt( (tempErr1/tempEff1)*(tempErr1/tempEff1) + (tempErr2/tempEff2)*(tempErr2/tempEff2) );
+      //std::cout << "\tSF = " << theSF << "\t" << "Err = " << theErr << std::endl;
+      if (useRandom) {
+        TRandom3 *r = new TRandom3(0);
+        Double_t randSF = r->Gaus(theSF, theErr);
+        //std::cout << "\trandSF = " << randSF << std::endl;
+        weight2 = randSF;
+      }
+      else if (!useRandom) {
+        weight2 = theSF;
+      }
+    }
+  }
+  //std::cout << "\t\tweight2 = " << weight2 << std::endl;
+
+  return weight1*weight2;
+}
+
 class EfficiencyFromMCMini : public edm::EDAnalyzer {
  public:
   explicit EfficiencyFromMCMini(const edm::ParameterSet&);
@@ -39,6 +162,9 @@ class EfficiencyFromMCMini : public edm::EDAnalyzer {
   const double acceptance_min_pt;
   TriggerDecision triggerDecision;
   HardInteraction hardInteraction;
+
+  const bool useWeight;
+  const bool useRandom;
 
   pat::TriggerObjectStandAloneCollection l3_mus;
 
@@ -68,7 +194,7 @@ class EfficiencyFromMCMini : public edm::EDAnalyzer {
   effhistos hlt_or_eff_bb;
 //  effhistos total_trig_eff_bb;
   effhistos trig_match_eff_bb;
-    
+
   effhistos accnopt_e;
   effhistos acceptance_e;
   effhistos recowrtacc_e;
@@ -120,9 +246,12 @@ EfficiencyFromMCMini::EfficiencyFromMCMini(const edm::ParameterSet& cfg)
     acceptance_max_eta_1(cfg.getParameter<double>("acceptance_max_eta_1")),
     acceptance_max_eta_2(cfg.getParameter<double>("acceptance_max_eta_2")),
     acceptance_min_pt(cfg.getParameter<double>("acceptance_min_pt")),
-    hardInteraction(cfg.getParameter<edm::ParameterSet>("hardInteraction"))    
+    hardInteraction(cfg.getParameter<edm::ParameterSet>("hardInteraction")),
+
+    useWeight(cfg.getParameter<bool>("useWeight")),
+    useRandom(cfg.getParameter<bool>("useRandom"))
 {
-  triggerDecision.init(cfg.getParameter<edm::ParameterSet>("triggerDecision")); 
+  triggerDecision.init(cfg.getParameter<edm::ParameterSet>("triggerDecision"));
   consumes<edm::TriggerResults>(cfg.getParameter<edm::ParameterSet>("triggerDecision").getParameter<edm::InputTag>("hltResults"));
   consumes<L1GlobalTriggerObjectMapRecord>(cfg.getParameter<edm::ParameterSet>("triggerDecision").getParameter<edm::InputTag>("l1GtObjectMap"));
   consumes<reco::GenParticleCollection>(hardInteraction.src);
@@ -144,7 +273,7 @@ EfficiencyFromMCMini::EfficiencyFromMCMini(const edm::ParameterSet& cfg)
   recowrtacctrig_bb = make_eff_pair("RecoWrtAccTrig_bb", "Offline dimuon efficiency for events in acceptance and firing the trigger vs. mass");
   totalreco_bb = make_eff_pair("TotalReco_bb", "Total dimuon efficiency vs. mass");
   trig_match_eff_bb = make_eff_pair("TrigMatch_bb","N-1 Trigger Matching Efficiency vs. mass");
-  
+
   accnopt_e = make_eff_pair("AccNoPt_e", "Acceptance (no p_{T} cut) vs. mass");
   acceptance_e = make_eff_pair("Acceptance_e", "Acceptance vs. mass");
   recowrtacc_e = make_eff_pair("RecoWrtAcc_e", "Offline dimuon efficiency for events in acceptance vs. mass");
@@ -156,7 +285,7 @@ EfficiencyFromMCMini::EfficiencyFromMCMini(const edm::ParameterSet& cfg)
     l1_path_effs.push_back(make_eff_pair(TString::Format("L1Path_%u_%s", unsigned(i), triggerDecision.l1_paths().at(i).c_str()), TString::Format("#varepsilon(%s) vs. mass", triggerDecision.l1_paths().at(i).c_str())));
   for (size_t i = 0; i < triggerDecision.hlt_paths().size(); ++i)
     hlt_path_effs.push_back(make_eff_pair(TString::Format("HLTPath_%u_%s", unsigned(i), triggerDecision.hlt_paths().at(i).c_str()), TString::Format("#varepsilon(%s) vs. mass", triggerDecision.hlt_paths().at(i).c_str())));
-  
+
   l1_or_eff   = make_eff_pair("L1OrEff",   TString::Format("#varepsilon(%s) vs. mass", join(triggerDecision.l1_paths(),  std::string(" || ")).c_str()));
   hlt_or_eff  = make_eff_pair("HLTOrEff",  TString::Format("#varepsilon(%s) vs. mass", join(triggerDecision.hlt_paths(), std::string(" || ")).c_str()));
   hlt_or_eff_bb  = make_eff_pair("HLTOrEff_bb",  TString::Format("#varepsilon(%s) vs. mass", join(triggerDecision.hlt_paths(), std::string(" || ")).c_str()));
@@ -176,7 +305,7 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
   edm::Handle<edm::TriggerResults> triggerBits;
   event.getByToken(trigger_summary_src_, trigger_summary_src);
   event.getByToken(triggerBits_, triggerBits);
-  
+
   if (!hardInteraction.IsValid()) {
     edm::LogWarning("EfficiencyFromMC") << "!hardInteraction.isValid()";
     return;
@@ -184,7 +313,7 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
 
   const double m = use_resonance_mass ? hardInteraction.resonance->mass() : hardInteraction.dilepton().mass();
   const double m_denom = use_resonance_mass_denom ? hardInteraction.resonance->mass() : hardInteraction.dilepton().mass();
-  
+
   accnopt.second->Fill(m_denom);
   accnopt_bb.second->Fill(m_denom);
   accnopt_e.second->Fill(m_denom);
@@ -227,9 +356,9 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
     // event now.
     return;
 
-  
+
   recowrtacc.second->Fill(m);
-  
+
   for (size_t i = 0; i < triggerDecision.l1_paths().size(); ++i)
     l1_path_effs[i].second->Fill(m);
   for (size_t i = 0; i < triggerDecision.hlt_paths().size(); ++i)
@@ -248,14 +377,14 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
     hlt_or_eff_e.second->Fill(m);
   } // BE + EE
 
-  
+
   bool l1_or = false, hlt_or = false;
 
   if (check_l1) {
     for (size_t i = 0; i < triggerDecision.l1_paths().size(); ++i) {
       if (triggerDecision.l1_path_pass(i)) {
-	    l1_path_effs[i].first->Fill(m);
-	    l1_or = true;
+      l1_path_effs[i].first->Fill(m);
+      l1_or = true;
       }
     }
   }
@@ -265,14 +394,14 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
     l1_or = true;
 
   bool hlt_pass_overridden = false;
- 
+
   if (hlt_single_min_pt > 0 || hlt_single_max_eta > 0) {
     Zprime2muTriggerPathsAndFilters pandf(event);
     if (!pandf.valid) throw cms::Exception("Zprime2muTriggerPathsAndFilters") << "could not determine the HLT path and filter names for this event\n";
 
     const edm::TriggerNames &names = event.triggerNames(*triggerBits);
     int j = 0;
-    
+
     l3_mus.clear();
 
     for (pat::TriggerObjectStandAlone obj : *trigger_summary_src) { // note: not "const &" since we want to call unpackPathNames
@@ -280,27 +409,31 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
 
          for (unsigned h = 0; h < obj.filterLabels().size(); ++h) {
            if (checking_prescaled_path && obj.filterLabels()[h] ==  pandf.prescaled_filter){
-     	     //FilterMatched[j] = 1;
-	         l3_mus.push_back(obj);
-	       }
-           if (!checking_prescaled_path && obj.filterLabels()[h] ==  pandf.filter){ 
-	         //FilterMatched[j] = 1;
-	         l3_mus.push_back(obj);
-	       }
+           //FilterMatched[j] = 1;
+           l3_mus.push_back(obj);
+         }
+           if (!checking_prescaled_path && obj.filterLabels()[h] ==  pandf.filter){
+           //FilterMatched[j] = 1;
+           l3_mus.push_back(obj);
+         }
            //trigger::TriggerObjectCollection l3_mus = get_L3_muons(event, checking_prescaled_path ? pandf.prescaled_filter : pandf.filter, trigger_summary_src);
          }
       j++;
-    
+
     }
 
- 
-    
+
+
     bool pass = false;
-   
+
     for (pat::TriggerObjectStandAloneCollection::const_iterator l3_mu = l3_mus.begin(), hoe = l3_mus.end(); l3_mu != hoe; ++l3_mu) {
       if (l3_mu->pt() > hlt_single_min_pt && fabs(l3_mu->eta()) < hlt_single_max_eta) {
-	    pass = true;
-	    break;
+        pass = true;
+        break;
+      }
+      else {
+        edm::LogWarning("EfficiencyFromMC")
+        << l3_mu->pt() << ", " << l3_mu->eta() << "\n";
       }
     }
     if (!pass) hlt_pass_overridden = true;
@@ -309,34 +442,34 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
   for (size_t i = 0; i < triggerDecision.hlt_paths().size(); ++i) {
     if (triggerDecision.hlt_path_pass(i)) {
       if (hlt_pass_overridden) edm::LogWarning("EfficiencyFromMC")
-	    << "Trigger decision overruled by cuts on Level-3 muon!\n";
+      << "Trigger decision overruled by cuts on Level-3 muon!\n";
       if (i == 0 && hlt_pass_overridden)
-	    continue;
+      continue;
 
       hlt_path_effs[i].first->Fill(m);
       hlt_or = true;
     }
   }
 
- 
+
   if (l1_or) l1_or_eff.first->Fill(m);
   if (hlt_or) {
     hlt_or_eff.first->Fill(m);
 
     if (hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2)
-    { 
+    {
       hlt_or_eff_bb.first->Fill(m);
     } // BB
 
     if ( !(hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2) )
-    { 
+    {
       hlt_or_eff_e.first->Fill(m);
     } // BE + EE
 
   }
 
   if (l1_or && hlt_or) total_trig_eff.first->Fill(m);
- 
+
   if (l1_or && hlt_or)
   {
     recowrtacctrig.second->Fill(m);
@@ -349,10 +482,10 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
     if ( !(hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2) )
     {
       recowrtacctrig_e.second->Fill(m);
-    } // BE + EE 
+    } // BE + EE
 
-  }   
-  
+  }
+
   // Look for an offline reconstructed dimuon while we're here to
   // measure the total reco efficiency. Loose match in dR for the two
   // muons to the gen two muons before we count it.
@@ -362,27 +495,39 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
   for (pat::CompositeCandidateCollection::const_iterator di = dimuons->begin(), die = dimuons->end(); di != die; ++di) {
     reco::CandidateBaseRef dau0 = dileptonDaughter(*di, 0);
     reco::CandidateBaseRef dau1 = dileptonDaughter(*di, 1);
+
+    // -- Apply SF as a wight -- //
+    //Int_t useRandom = 1;  // use gausian random weight
+    Double_t weight = 1.0;
+    if ( useWeight ) {
+      Double_t p0 = dau0->p();  Double_t e0 = dau0->eta();
+      Double_t p1 = dau1->p();  Double_t e1 = dau1->eta();
+      weight = GetWeight(p0, e0, p1, e1, useRandom);
+    }
+    else
+      weight = 1.0;
+
     if ((reco::deltaR(*dau0, *hardInteraction.lepPlus)  < dRmax || reco::deltaR(*dau1, *hardInteraction.lepPlus)  < dRmax) &&
-        (reco::deltaR(*dau0, *hardInteraction.lepMinus) < dRmax || reco::deltaR(*dau1, *hardInteraction.lepMinus) < dRmax)) 
+        (reco::deltaR(*dau0, *hardInteraction.lepMinus) < dRmax || reco::deltaR(*dau1, *hardInteraction.lepMinus) < dRmax))
     {
-      recowrtacc.first->Fill(m);
+      recowrtacc.first->Fill(m, weight);
       if (l1_or && hlt_or) {
-        recowrtacctrig.first->Fill(m);
+        recowrtacctrig.first->Fill(m, weight);
         trig_match_eff.second->Fill(m);
       } //All
-            
+
       if (hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2) {
-        recowrtacc_bb.first->Fill(m);
+        recowrtacc_bb.first->Fill(m, weight);
         if (l1_or && hlt_or) {
-          recowrtacctrig_bb.first->Fill(m);
+          recowrtacctrig_bb.first->Fill(m, weight);
           trig_match_eff_bb.second->Fill(m);
         }
       } //BB
 
       if ( !(hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2) ) {
-        recowrtacc_e.first->Fill(m);
+        recowrtacc_e.first->Fill(m, weight);
         if (l1_or && hlt_or) {
-          recowrtacctrig_e.first->Fill(m);
+          recowrtacctrig_e.first->Fill(m, weight);
           trig_match_eff_e.second->Fill(m);
         }
       } //BE+EE
@@ -403,16 +548,16 @@ void EfficiencyFromMCMini::analyze(const edm::Event& event, const edm::EventSetu
 
       if ( l1_or && hlt_or && ( dR_min < 0.2 ) ) {
         trig_match_eff.first->Fill(m);
-        totalreco.first->Fill(m);
+        totalreco.first->Fill(m, weight);
 
         if (hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2) {
           trig_match_eff_bb.first->Fill(m);
-          totalreco_bb.first->Fill(m);
+          totalreco_bb.first->Fill(m, weight);
         } // BB
 
         if ( !(hardInteraction.lepMinus->eta()<=1.2 && hardInteraction.lepPlus->eta()<=1.2 && hardInteraction.lepMinus->eta()>=-1.2 && hardInteraction.lepPlus->eta()>=-1.2) ) {
           trig_match_eff_e.first->Fill(m);
-          totalreco_e.first->Fill(m);
+          totalreco_e.first->Fill(m, weight);
         } // BE + EE
       }
       break;

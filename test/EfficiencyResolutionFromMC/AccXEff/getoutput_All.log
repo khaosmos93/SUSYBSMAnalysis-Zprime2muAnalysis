@@ -1,0 +1,2040 @@
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy120/results 
+Retrieving 149 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_79.root' in retrieval queue 
+Retrieving zp2mu_histos_79.root 
+Placing file 'zp2mu_histos_123.root' in retrieval queue 
+Retrieving zp2mu_histos_123.root 
+Placing file 'zp2mu_histos_58.root' in retrieval queue 
+Retrieving zp2mu_histos_58.root 
+Placing file 'zp2mu_histos_59.root' in retrieval queue 
+Retrieving zp2mu_histos_59.root 
+Placing file 'zp2mu_histos_99.root' in retrieval queue 
+Retrieving zp2mu_histos_99.root 
+Placing file 'zp2mu_histos_88.root' in retrieval queue 
+Retrieving zp2mu_histos_88.root 
+Placing file 'zp2mu_histos_75.root' in retrieval queue 
+Retrieving zp2mu_histos_75.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_78.root' in retrieval queue 
+Retrieving zp2mu_histos_78.root 
+Placing file 'zp2mu_histos_45.root' in retrieval queue 
+Placing file 'zp2mu_histos_131.root' in retrieval queue 
+Placing file 'zp2mu_histos_47.root' in retrieval queue 
+Placing file 'zp2mu_histos_32.root' in retrieval queue 
+Placing file 'zp2mu_histos_27.root' in retrieval queue 
+Placing file 'zp2mu_histos_20.root' in retrieval queue 
+Placing file 'zp2mu_histos_42.root' in retrieval queue 
+Placing file 'zp2mu_histos_22.root' in retrieval queue 
+Placing file 'zp2mu_histos_9.root' in retrieval queue 
+Placing file 'zp2mu_histos_17.root' in retrieval queue 
+Placing file 'zp2mu_histos_13.root' in retrieval queue 
+Placing file 'zp2mu_histos_143.root' in retrieval queue 
+Placing file 'zp2mu_histos_91.root' in retrieval queue 
+Placing file 'zp2mu_histos_138.root' in retrieval queue 
+Placing file 'zp2mu_histos_36.root' in retrieval queue 
+Placing file 'zp2mu_histos_76.root' in retrieval queue 
+Placing file 'zp2mu_histos_149.root' in retrieval queue 
+Placing file 'zp2mu_histos_148.root' in retrieval queue 
+Placing file 'zp2mu_histos_147.root' in retrieval queue 
+Placing file 'zp2mu_histos_146.root' in retrieval queue 
+Placing file 'zp2mu_histos_145.root' in retrieval queue 
+Placing file 'zp2mu_histos_144.root' in retrieval queue 
+Placing file 'zp2mu_histos_141.root' in retrieval queue 
+Placing file 'zp2mu_histos_137.root' in retrieval queue 
+Placing file 'zp2mu_histos_136.root' in retrieval queue 
+Placing file 'zp2mu_histos_135.root' in retrieval queue 
+Placing file 'zp2mu_histos_134.root' in retrieval queue 
+Placing file 'zp2mu_histos_133.root' in retrieval queue 
+Placing file 'zp2mu_histos_111.root' in retrieval queue 
+Placing file 'zp2mu_histos_124.root' in retrieval queue 
+Placing file 'zp2mu_histos_129.root' in retrieval queue 
+Placing file 'zp2mu_histos_130.root' in retrieval queue 
+Placing file 'zp2mu_histos_118.root' in retrieval queue 
+Placing file 'zp2mu_histos_113.root' in retrieval queue 
+Placing file 'zp2mu_histos_126.root' in retrieval queue 
+Placing file 'zp2mu_histos_116.root' in retrieval queue 
+Placing file 'zp2mu_histos_114.root' in retrieval queue 
+Placing file 'zp2mu_histos_115.root' in retrieval queue 
+Placing file 'zp2mu_histos_112.root' in retrieval queue 
+Placing file 'zp2mu_histos_107.root' in retrieval queue 
+Placing file 'zp2mu_histos_108.root' in retrieval queue 
+Placing file 'zp2mu_histos_106.root' in retrieval queue 
+Placing file 'zp2mu_histos_105.root' in retrieval queue 
+Placing file 'zp2mu_histos_104.root' in retrieval queue 
+Placing file 'zp2mu_histos_103.root' in retrieval queue 
+Placing file 'zp2mu_histos_102.root' in retrieval queue 
+Placing file 'zp2mu_histos_96.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_58.root 
+Success: Success in retrieving zp2mu_histos_78.root 
+Success: Success in retrieving zp2mu_histos_59.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Retrieving zp2mu_histos_45.root 
+Placing file 'zp2mu_histos_101.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_79.root 
+Retrieving zp2mu_histos_131.root 
+Retrieving zp2mu_histos_47.root 
+Placing file 'zp2mu_histos_89.root' in retrieval queue 
+Retrieving zp2mu_histos_32.root 
+Retrieving zp2mu_histos_27.root 
+Placing file 'zp2mu_histos_85.root' in retrieval queue 
+Retrieving zp2mu_histos_20.root 
+Placing file 'zp2mu_histos_98.root' in retrieval queue 
+Placing file 'zp2mu_histos_83.root' in retrieval queue 
+Placing file 'zp2mu_histos_97.root' in retrieval queue 
+Placing file 'zp2mu_histos_93.root' in retrieval queue 
+Placing file 'zp2mu_histos_94.root' in retrieval queue 
+Placing file 'zp2mu_histos_86.root' in retrieval queue 
+Placing file 'zp2mu_histos_84.root' in retrieval queue 
+Placing file 'zp2mu_histos_80.root' in retrieval queue 
+Placing file 'zp2mu_histos_77.root' in retrieval queue 
+Placing file 'zp2mu_histos_69.root' in retrieval queue 
+Placing file 'zp2mu_histos_68.root' in retrieval queue 
+Placing file 'zp2mu_histos_67.root' in retrieval queue 
+Placing file 'zp2mu_histos_66.root' in retrieval queue 
+Placing file 'zp2mu_histos_65.root' in retrieval queue 
+Placing file 'zp2mu_histos_63.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_88.root 
+Placing file 'zp2mu_histos_64.root' in retrieval queue 
+Retrieving zp2mu_histos_42.root 
+Success: Success in retrieving zp2mu_histos_75.root 
+Retrieving zp2mu_histos_22.root 
+Placing file 'zp2mu_histos_62.root' in retrieval queue 
+Placing file 'zp2mu_histos_56.root' in retrieval queue 
+Placing file 'zp2mu_histos_61.root' in retrieval queue 
+Placing file 'zp2mu_histos_55.root' in retrieval queue 
+Placing file 'zp2mu_histos_53.root' in retrieval queue 
+Placing file 'zp2mu_histos_54.root' in retrieval queue 
+Placing file 'zp2mu_histos_50.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_123.root 
+Placing file 'zp2mu_histos_51.root' in retrieval queue 
+Retrieving zp2mu_histos_9.root 
+Placing file 'zp2mu_histos_52.root' in retrieval queue 
+Placing file 'zp2mu_histos_48.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_99.root 
+Retrieving zp2mu_histos_17.root 
+Placing file 'zp2mu_histos_46.root' in retrieval queue 
+Placing file 'zp2mu_histos_44.root' in retrieval queue 
+Placing file 'zp2mu_histos_49.root' in retrieval queue 
+Placing file 'zp2mu_histos_43.root' in retrieval queue 
+Placing file 'zp2mu_histos_40.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_20.root 
+Retrieving zp2mu_histos_13.root 
+Placing file 'zp2mu_histos_41.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_27.root 
+Retrieving zp2mu_histos_143.root 
+Placing file 'zp2mu_histos_39.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_45.root 
+Retrieving zp2mu_histos_91.root 
+Placing file 'zp2mu_histos_38.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_47.root 
+Retrieving zp2mu_histos_138.root 
+Placing file 'zp2mu_histos_35.root' in retrieval queue 
+Placing file 'zp2mu_histos_34.root' in retrieval queue 
+Placing file 'zp2mu_histos_33.root' in retrieval queue 
+Placing file 'zp2mu_histos_29.root' in retrieval queue 
+Placing file 'zp2mu_histos_19.root' in retrieval queue 
+Placing file 'zp2mu_histos_28.root' in retrieval queue 
+Placing file 'zp2mu_histos_12.root' in retrieval queue 
+Placing file 'zp2mu_histos_11.root' in retrieval queue 
+Placing file 'zp2mu_histos_8.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_131.root 
+Retrieving zp2mu_histos_36.root 
+Placing file 'zp2mu_histos_14.root' in retrieval queue 
+Placing file 'zp2mu_histos_25.root' in retrieval queue 
+Placing file 'zp2mu_histos_23.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_32.root 
+Retrieving zp2mu_histos_76.root 
+Placing file 'zp2mu_histos_21.root' in retrieval queue 
+Placing file 'zp2mu_histos_16.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_42.root 
+Retrieving zp2mu_histos_149.root 
+Success: Success in retrieving zp2mu_histos_9.root 
+Retrieving zp2mu_histos_148.root 
+Success: Success in retrieving zp2mu_histos_22.root 
+Retrieving zp2mu_histos_147.root 
+Placing file 'zp2mu_histos_26.root' in retrieval queue 
+Placing file 'zp2mu_histos_10.root' in retrieval queue 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Placing file 'zp2mu_histos_18.root' in retrieval queue 
+Placing file 'zp2mu_histos_7.root' in retrieval queue 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Placing file 'zp2mu_histos_60.root' in retrieval queue 
+Placing file 'zp2mu_histos_31.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_17.root 
+Retrieving zp2mu_histos_146.root 
+Placing file 'zp2mu_histos_109.root' in retrieval queue 
+Placing file 'zp2mu_histos_15.root' in retrieval queue 
+Placing file 'zp2mu_histos_24.root' in retrieval queue 
+Placing file 'zp2mu_histos_140.root' in retrieval queue 
+Placing file 'zp2mu_histos_30.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_143.root 
+Retrieving zp2mu_histos_145.root 
+Success: Success in retrieving zp2mu_histos_13.root 
+Retrieving zp2mu_histos_144.root 
+Placing file 'zp2mu_histos_37.root' in retrieval queue 
+Placing file 'zp2mu_histos_125.root' in retrieval queue 
+Placing file 'zp2mu_histos_70.root' in retrieval queue 
+Placing file 'zp2mu_histos_127.root' in retrieval queue 
+Placing file 'zp2mu_histos_81.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_138.root 
+Retrieving zp2mu_histos_141.root 
+Placing file 'zp2mu_histos_117.root' in retrieval queue 
+Placing file 'zp2mu_histos_73.root' in retrieval queue 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Placing file 'zp2mu_histos_100.root' in retrieval queue 
+Placing file 'zp2mu_histos_122.root' in retrieval queue 
+Placing file 'zp2mu_histos_119.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_91.root 
+Retrieving zp2mu_histos_137.root 
+Placing file 'zp2mu_histos_132.root' in retrieval queue 
+Placing file 'zp2mu_histos_128.root' in retrieval queue 
+Placing file 'zp2mu_histos_90.root' in retrieval queue 
+Placing file 'zp2mu_histos_74.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_148.root 
+Retrieving zp2mu_histos_136.root 
+Placing file 'zp2mu_histos_120.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_76.root 
+Retrieving zp2mu_histos_135.root 
+Success: Success in retrieving zp2mu_histos_36.root 
+Retrieving zp2mu_histos_134.root 
+Success: Success in retrieving zp2mu_histos_147.root 
+Retrieving zp2mu_histos_133.root 
+Success: Success in retrieving zp2mu_histos_149.root 
+Retrieving zp2mu_histos_111.root 
+Placing file 'zp2mu_histos_87.root' in retrieval queue 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Placing file 'zp2mu_histos_110.root' in retrieval queue 
+Placing file 'zp2mu_histos_139.root' in retrieval queue 
+Placing file 'zp2mu_histos_71.root' in retrieval queue 
+Placing file 'zp2mu_histos_82.root' in retrieval queue 
+Placing file 'zp2mu_histos_142.root' in retrieval queue 
+Placing file 'zp2mu_histos_72.root' in retrieval queue 
+Placing file 'zp2mu_histos_57.root' in retrieval queue 
+Placing file 'zp2mu_histos_95.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_146.root 
+Retrieving zp2mu_histos_124.root 
+Placing file 'zp2mu_histos_121.root' in retrieval queue 
+Placing file 'zp2mu_histos_92.root' in retrieval queue 
+Please wait
+Success: Success in retrieving zp2mu_histos_144.root 
+Success: Success in retrieving zp2mu_histos_145.root 
+Retrieving zp2mu_histos_129.root 
+Retrieving zp2mu_histos_130.root 
+Success: Success in retrieving zp2mu_histos_141.root 
+Retrieving zp2mu_histos_118.root 
+Success: Success in retrieving zp2mu_histos_133.root 
+Retrieving zp2mu_histos_113.root 
+Success: Success in retrieving zp2mu_histos_136.root 
+Retrieving zp2mu_histos_126.root 
+Success: Success in retrieving zp2mu_histos_135.root 
+Retrieving zp2mu_histos_116.root 
+Success: Success in retrieving zp2mu_histos_134.root 
+Retrieving zp2mu_histos_114.root 
+Success: Success in retrieving zp2mu_histos_111.root 
+Retrieving zp2mu_histos_115.root 
+Success: Success in retrieving zp2mu_histos_137.root 
+Retrieving zp2mu_histos_112.root 
+Success: Success in retrieving zp2mu_histos_124.root 
+Retrieving zp2mu_histos_107.root 
+Success: Success in retrieving zp2mu_histos_118.root 
+Retrieving zp2mu_histos_108.root 
+Success: Success in retrieving zp2mu_histos_129.root 
+Retrieving zp2mu_histos_106.root 
+Success: Success in retrieving zp2mu_histos_112.root 
+Retrieving zp2mu_histos_105.root 
+Success: Success in retrieving zp2mu_histos_113.root 
+Retrieving zp2mu_histos_104.root 
+Success: Success in retrieving zp2mu_histos_116.root 
+Retrieving zp2mu_histos_103.root 
+Success: Success in retrieving zp2mu_histos_115.root 
+Retrieving zp2mu_histos_102.root 
+Success: Success in retrieving zp2mu_histos_130.root 
+Retrieving zp2mu_histos_96.root 
+Success: Success in retrieving zp2mu_histos_114.root 
+Retrieving zp2mu_histos_101.root 
+Success: Success in retrieving zp2mu_histos_126.root 
+Retrieving zp2mu_histos_89.root 
+Success: Success in retrieving zp2mu_histos_107.root 
+Retrieving zp2mu_histos_85.root 
+Success: Success in retrieving zp2mu_histos_108.root 
+Retrieving zp2mu_histos_98.root 
+Success: Success in retrieving zp2mu_histos_106.root 
+Retrieving zp2mu_histos_83.root 
+Success: Success in retrieving zp2mu_histos_105.root 
+Retrieving zp2mu_histos_97.root 
+Success: Success in retrieving zp2mu_histos_103.root 
+Retrieving zp2mu_histos_93.root 
+Success: Success in retrieving zp2mu_histos_104.root 
+Retrieving zp2mu_histos_94.root 
+Success: Success in retrieving zp2mu_histos_96.root 
+Success: Success in retrieving zp2mu_histos_102.root 
+Retrieving zp2mu_histos_86.root 
+Retrieving zp2mu_histos_84.root 
+Success: Success in retrieving zp2mu_histos_98.root 
+Retrieving zp2mu_histos_80.root 
+Success: Success in retrieving zp2mu_histos_89.root 
+Success: Success in retrieving zp2mu_histos_85.root 
+Retrieving zp2mu_histos_77.root 
+Retrieving zp2mu_histos_69.root 
+Success: Success in retrieving zp2mu_histos_101.root 
+Retrieving zp2mu_histos_68.root 
+Success: Success in retrieving zp2mu_histos_83.root 
+Retrieving zp2mu_histos_67.root 
+Success: Success in retrieving zp2mu_histos_94.root 
+Retrieving zp2mu_histos_66.root 
+Success: Success in retrieving zp2mu_histos_97.root 
+Retrieving zp2mu_histos_65.root 
+Success: Success in retrieving zp2mu_histos_86.root 
+Retrieving zp2mu_histos_63.root 
+Success: Success in retrieving zp2mu_histos_84.root 
+Retrieving zp2mu_histos_64.root 
+Success: Success in retrieving zp2mu_histos_93.root 
+Retrieving zp2mu_histos_62.root 
+Success: Success in retrieving zp2mu_histos_77.root 
+Retrieving zp2mu_histos_56.root 
+Success: Success in retrieving zp2mu_histos_69.root 
+Retrieving zp2mu_histos_61.root 
+Success: Success in retrieving zp2mu_histos_68.root 
+Retrieving zp2mu_histos_55.root 
+Success: Success in retrieving zp2mu_histos_80.root 
+Retrieving zp2mu_histos_53.root 
+Success: Success in retrieving zp2mu_histos_67.root 
+Retrieving zp2mu_histos_54.root 
+Success: Success in retrieving zp2mu_histos_65.root 
+Retrieving zp2mu_histos_50.root 
+Success: Success in retrieving zp2mu_histos_62.root 
+Retrieving zp2mu_histos_51.root 
+Success: Success in retrieving zp2mu_histos_64.root 
+Retrieving zp2mu_histos_52.root 
+Success: Success in retrieving zp2mu_histos_66.root 
+Retrieving zp2mu_histos_48.root 
+Success: Success in retrieving zp2mu_histos_63.root 
+Retrieving zp2mu_histos_46.root 
+Success: Success in retrieving zp2mu_histos_55.root 
+Retrieving zp2mu_histos_44.root 
+Success: Success in retrieving zp2mu_histos_56.root 
+Retrieving zp2mu_histos_49.root 
+Success: Success in retrieving zp2mu_histos_61.root 
+Retrieving zp2mu_histos_43.root 
+Success: Success in retrieving zp2mu_histos_53.root 
+Retrieving zp2mu_histos_40.root 
+Success: Success in retrieving zp2mu_histos_54.root 
+Retrieving zp2mu_histos_41.root 
+Success: Success in retrieving zp2mu_histos_50.root 
+Retrieving zp2mu_histos_39.root 
+Success: Success in retrieving zp2mu_histos_52.root 
+Retrieving zp2mu_histos_38.root 
+Success: Success in retrieving zp2mu_histos_51.root 
+Retrieving zp2mu_histos_35.root 
+Success: Success in retrieving zp2mu_histos_46.root 
+Retrieving zp2mu_histos_34.root 
+Success: Success in retrieving zp2mu_histos_48.root 
+Retrieving zp2mu_histos_33.root 
+Success: Success in retrieving zp2mu_histos_44.root 
+Retrieving zp2mu_histos_29.root 
+Success: Success in retrieving zp2mu_histos_40.root 
+Retrieving zp2mu_histos_19.root 
+Success: Success in retrieving zp2mu_histos_49.root 
+Success: Success in retrieving zp2mu_histos_43.root 
+Retrieving zp2mu_histos_28.root 
+Retrieving zp2mu_histos_12.root 
+Success: Success in retrieving zp2mu_histos_41.root 
+Retrieving zp2mu_histos_11.root 
+Success: Success in retrieving zp2mu_histos_39.root 
+Retrieving zp2mu_histos_8.root 
+Success: Success in retrieving zp2mu_histos_38.root 
+Retrieving zp2mu_histos_14.root 
+Success: Success in retrieving zp2mu_histos_33.root 
+Retrieving zp2mu_histos_25.root 
+Success: Success in retrieving zp2mu_histos_35.root 
+Retrieving zp2mu_histos_23.root 
+Success: Success in retrieving zp2mu_histos_28.root 
+Retrieving zp2mu_histos_21.root 
+Success: Success in retrieving zp2mu_histos_19.root 
+Retrieving zp2mu_histos_16.root 
+Success: Success in retrieving zp2mu_histos_11.root 
+Retrieving zp2mu_histos_26.root 
+Success: Success in retrieving zp2mu_histos_34.root 
+Retrieving zp2mu_histos_10.root 
+Success: Success in retrieving zp2mu_histos_8.root 
+Retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_29.root 
+Retrieving zp2mu_histos_18.root 
+Success: Success in retrieving zp2mu_histos_12.root 
+Retrieving zp2mu_histos_7.root 
+Success: Success in retrieving zp2mu_histos_25.root 
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_23.root 
+Retrieving zp2mu_histos_60.root 
+Success: Success in retrieving zp2mu_histos_21.root 
+Retrieving zp2mu_histos_31.root 
+Success: Success in retrieving zp2mu_histos_16.root 
+Retrieving zp2mu_histos_109.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Retrieving zp2mu_histos_15.root 
+Success: Success in retrieving zp2mu_histos_14.root 
+Retrieving zp2mu_histos_24.root 
+Success: Success in retrieving zp2mu_histos_18.root 
+Success: Success in retrieving zp2mu_histos_26.root 
+Retrieving zp2mu_histos_140.root 
+Retrieving zp2mu_histos_30.root 
+Success: Success in retrieving zp2mu_histos_10.root 
+Retrieving zp2mu_histos_37.root 
+Success: Success in retrieving zp2mu_histos_7.root 
+Retrieving zp2mu_histos_125.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Retrieving zp2mu_histos_70.root 
+Success: Success in retrieving zp2mu_histos_31.root 
+Retrieving zp2mu_histos_127.root 
+Success: Success in retrieving zp2mu_histos_60.root 
+Retrieving zp2mu_histos_81.root 
+Success: Success in retrieving zp2mu_histos_140.root 
+Retrieving zp2mu_histos_117.root 
+Success: Success in retrieving zp2mu_histos_109.root 
+Retrieving zp2mu_histos_73.root 
+Success: Success in retrieving zp2mu_histos_24.root 
+Retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_125.root 
+Retrieving zp2mu_histos_100.root 
+Success: Success in retrieving zp2mu_histos_37.root 
+Retrieving zp2mu_histos_122.root 
+Success: Success in retrieving zp2mu_histos_15.root 
+Retrieving zp2mu_histos_119.root 
+Success: Success in retrieving zp2mu_histos_30.root 
+Retrieving zp2mu_histos_132.root 
+Success: Success in retrieving zp2mu_histos_70.root 
+Retrieving zp2mu_histos_128.root 
+Success: Success in retrieving zp2mu_histos_127.root 
+Retrieving zp2mu_histos_90.root 
+Success: Success in retrieving zp2mu_histos_81.root 
+Retrieving zp2mu_histos_74.root 
+Success: Success in retrieving zp2mu_histos_117.root 
+Retrieving zp2mu_histos_120.root 
+Success: Success in retrieving zp2mu_histos_73.root 
+Retrieving zp2mu_histos_87.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_132.root 
+Retrieving zp2mu_histos_110.root 
+Success: Success in retrieving zp2mu_histos_100.root 
+Retrieving zp2mu_histos_139.root 
+Success: Success in retrieving zp2mu_histos_122.root 
+Retrieving zp2mu_histos_71.root 
+Success: Success in retrieving zp2mu_histos_119.root 
+Retrieving zp2mu_histos_82.root 
+Success: Success in retrieving zp2mu_histos_90.root 
+Retrieving zp2mu_histos_142.root 
+Success: Success in retrieving zp2mu_histos_128.root 
+Retrieving zp2mu_histos_72.root 
+Success: Success in retrieving zp2mu_histos_87.root 
+Retrieving zp2mu_histos_57.root 
+Success: Success in retrieving zp2mu_histos_74.root 
+Success: Success in retrieving zp2mu_histos_139.root 
+Retrieving zp2mu_histos_95.root 
+Success: Success in retrieving zp2mu_histos_120.root 
+Retrieving zp2mu_histos_121.root 
+Retrieving zp2mu_histos_92.root 
+Success: Success in retrieving zp2mu_histos_110.root 
+Success: Success in retrieving zp2mu_histos_71.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_82.root 
+Success: Success in retrieving zp2mu_histos_72.root 
+Success: Success in retrieving zp2mu_histos_142.root 
+Success: Success in retrieving zp2mu_histos_57.root 
+Success: Success in retrieving zp2mu_histos_121.root 
+Success: Success in retrieving zp2mu_histos_95.root 
+Success: Success in retrieving zp2mu_histos_92.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy120/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy200/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy200/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy400/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy400/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy800/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy800/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy1400/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy1400/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy2300/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy2300/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy3500/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy3500/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy4500/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy4500/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy6000/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dy6000/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dyInf/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/noWei_noRand/crab_AccXEff_20171010/crab_AccXEff_noWei_noRand_20171010_dyInf/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy120/results 
+Retrieving 149 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_116.root' in retrieval queue 
+Retrieving zp2mu_histos_116.root 
+Placing file 'zp2mu_histos_33.root' in retrieval queue 
+Retrieving zp2mu_histos_33.root 
+Placing file 'zp2mu_histos_149.root' in retrieval queue 
+Retrieving zp2mu_histos_149.root 
+Placing file 'zp2mu_histos_145.root' in retrieval queue 
+Retrieving zp2mu_histos_145.root 
+Placing file 'zp2mu_histos_101.root' in retrieval queue 
+Retrieving zp2mu_histos_101.root 
+Placing file 'zp2mu_histos_128.root' in retrieval queue 
+Retrieving zp2mu_histos_128.root 
+Placing file 'zp2mu_histos_99.root' in retrieval queue 
+Retrieving zp2mu_histos_99.root 
+Placing file 'zp2mu_histos_108.root' in retrieval queue 
+Retrieving zp2mu_histos_108.root 
+Placing file 'zp2mu_histos_134.root' in retrieval queue 
+Retrieving zp2mu_histos_134.root 
+Placing file 'zp2mu_histos_125.root' in retrieval queue 
+Retrieving zp2mu_histos_125.root 
+Placing file 'zp2mu_histos_129.root' in retrieval queue 
+Placing file 'zp2mu_histos_102.root' in retrieval queue 
+Placing file 'zp2mu_histos_115.root' in retrieval queue 
+Placing file 'zp2mu_histos_105.root' in retrieval queue 
+Placing file 'zp2mu_histos_95.root' in retrieval queue 
+Placing file 'zp2mu_histos_104.root' in retrieval queue 
+Placing file 'zp2mu_histos_92.root' in retrieval queue 
+Placing file 'zp2mu_histos_94.root' in retrieval queue 
+Placing file 'zp2mu_histos_93.root' in retrieval queue 
+Placing file 'zp2mu_histos_90.root' in retrieval queue 
+Placing file 'zp2mu_histos_83.root' in retrieval queue 
+Placing file 'zp2mu_histos_80.root' in retrieval queue 
+Placing file 'zp2mu_histos_81.root' in retrieval queue 
+Placing file 'zp2mu_histos_77.root' in retrieval queue 
+Placing file 'zp2mu_histos_78.root' in retrieval queue 
+Placing file 'zp2mu_histos_70.root' in retrieval queue 
+Placing file 'zp2mu_histos_62.root' in retrieval queue 
+Placing file 'zp2mu_histos_45.root' in retrieval queue 
+Placing file 'zp2mu_histos_50.root' in retrieval queue 
+Placing file 'zp2mu_histos_49.root' in retrieval queue 
+Placing file 'zp2mu_histos_44.root' in retrieval queue 
+Placing file 'zp2mu_histos_25.root' in retrieval queue 
+Placing file 'zp2mu_histos_11.root' in retrieval queue 
+Placing file 'zp2mu_histos_69.root' in retrieval queue 
+Placing file 'zp2mu_histos_142.root' in retrieval queue 
+Placing file 'zp2mu_histos_29.root' in retrieval queue 
+Placing file 'zp2mu_histos_148.root' in retrieval queue 
+Placing file 'zp2mu_histos_147.root' in retrieval queue 
+Placing file 'zp2mu_histos_146.root' in retrieval queue 
+Placing file 'zp2mu_histos_144.root' in retrieval queue 
+Placing file 'zp2mu_histos_143.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_33.root 
+Placing file 'zp2mu_histos_141.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_145.root 
+Retrieving zp2mu_histos_129.root 
+Retrieving zp2mu_histos_102.root 
+Placing file 'zp2mu_histos_140.root' in retrieval queue 
+Placing file 'zp2mu_histos_138.root' in retrieval queue 
+Placing file 'zp2mu_histos_137.root' in retrieval queue 
+Placing file 'zp2mu_histos_136.root' in retrieval queue 
+Placing file 'zp2mu_histos_135.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_116.root 
+Placing file 'zp2mu_histos_132.root' in retrieval queue 
+Retrieving zp2mu_histos_115.root 
+Success: Success in retrieving zp2mu_histos_134.root 
+Retrieving zp2mu_histos_105.root 
+Placing file 'zp2mu_histos_133.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_149.root 
+Success: Success in retrieving zp2mu_histos_108.root 
+Placing file 'zp2mu_histos_130.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_101.root 
+Retrieving zp2mu_histos_95.root 
+Retrieving zp2mu_histos_104.root 
+Success: Success in retrieving zp2mu_histos_99.root 
+Placing file 'zp2mu_histos_123.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_128.root 
+Retrieving zp2mu_histos_92.root 
+Success: Success in retrieving zp2mu_histos_125.root 
+Placing file 'zp2mu_histos_127.root' in retrieval queue 
+Retrieving zp2mu_histos_94.root 
+Placing file 'zp2mu_histos_118.root' in retrieval queue 
+Retrieving zp2mu_histos_93.root 
+Placing file 'zp2mu_histos_120.root' in retrieval queue 
+Retrieving zp2mu_histos_90.root 
+Placing file 'zp2mu_histos_122.root' in retrieval queue 
+Placing file 'zp2mu_histos_119.root' in retrieval queue 
+Placing file 'zp2mu_histos_113.root' in retrieval queue 
+Placing file 'zp2mu_histos_112.root' in retrieval queue 
+Placing file 'zp2mu_histos_111.root' in retrieval queue 
+Placing file 'zp2mu_histos_109.root' in retrieval queue 
+Placing file 'zp2mu_histos_107.root' in retrieval queue 
+Placing file 'zp2mu_histos_106.root' in retrieval queue 
+Placing file 'zp2mu_histos_100.root' in retrieval queue 
+Placing file 'zp2mu_histos_98.root' in retrieval queue 
+Placing file 'zp2mu_histos_97.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_102.root 
+Retrieving zp2mu_histos_83.root 
+Placing file 'zp2mu_histos_89.root' in retrieval queue 
+Placing file 'zp2mu_histos_91.root' in retrieval queue 
+Placing file 'zp2mu_histos_87.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_129.root 
+Retrieving zp2mu_histos_80.root 
+Placing file 'zp2mu_histos_88.root' in retrieval queue 
+Placing file 'zp2mu_histos_86.root' in retrieval queue 
+Placing file 'zp2mu_histos_84.root' in retrieval queue 
+Placing file 'zp2mu_histos_85.root' in retrieval queue 
+Placing file 'zp2mu_histos_82.root' in retrieval queue 
+Placing file 'zp2mu_histos_79.root' in retrieval queue 
+Placing file 'zp2mu_histos_75.root' in retrieval queue 
+Placing file 'zp2mu_histos_72.root' in retrieval queue 
+Placing file 'zp2mu_histos_71.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_115.root 
+Retrieving zp2mu_histos_81.root 
+Placing file 'zp2mu_histos_68.root' in retrieval queue 
+Placing file 'zp2mu_histos_67.root' in retrieval queue 
+Placing file 'zp2mu_histos_66.root' in retrieval queue 
+Placing file 'zp2mu_histos_63.root' in retrieval queue 
+Placing file 'zp2mu_histos_65.root' in retrieval queue 
+Placing file 'zp2mu_histos_55.root' in retrieval queue 
+Placing file 'zp2mu_histos_57.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_105.root 
+Retrieving zp2mu_histos_77.root 
+Success: Success in retrieving zp2mu_histos_94.root 
+Retrieving zp2mu_histos_78.root 
+Placing file 'zp2mu_histos_58.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_93.root 
+Retrieving zp2mu_histos_70.root 
+Success: Success in retrieving zp2mu_histos_90.root 
+Retrieving zp2mu_histos_62.root 
+Success: Success in retrieving zp2mu_histos_104.root 
+Retrieving zp2mu_histos_45.root 
+Success: Success in retrieving zp2mu_histos_95.root 
+Retrieving zp2mu_histos_50.root 
+Placing file 'zp2mu_histos_53.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_92.root 
+Retrieving zp2mu_histos_49.root 
+Placing file 'zp2mu_histos_52.root' in retrieval queue 
+Placing file 'zp2mu_histos_51.root' in retrieval queue 
+Placing file 'zp2mu_histos_47.root' in retrieval queue 
+Placing file 'zp2mu_histos_40.root' in retrieval queue 
+Placing file 'zp2mu_histos_43.root' in retrieval queue 
+Placing file 'zp2mu_histos_39.root' in retrieval queue 
+Placing file 'zp2mu_histos_38.root' in retrieval queue 
+Placing file 'zp2mu_histos_35.root' in retrieval queue 
+Placing file 'zp2mu_histos_34.root' in retrieval queue 
+Placing file 'zp2mu_histos_36.root' in retrieval queue 
+Placing file 'zp2mu_histos_32.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_83.root 
+Retrieving zp2mu_histos_44.root 
+Placing file 'zp2mu_histos_30.root' in retrieval queue 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Placing file 'zp2mu_histos_19.root' in retrieval queue 
+Placing file 'zp2mu_histos_26.root' in retrieval queue 
+Placing file 'zp2mu_histos_22.root' in retrieval queue 
+Placing file 'zp2mu_histos_15.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_80.root 
+Retrieving zp2mu_histos_25.root 
+Placing file 'zp2mu_histos_28.root' in retrieval queue 
+Placing file 'zp2mu_histos_9.root' in retrieval queue 
+Placing file 'zp2mu_histos_18.root' in retrieval queue 
+Placing file 'zp2mu_histos_20.root' in retrieval queue 
+Placing file 'zp2mu_histos_17.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_81.root 
+Retrieving zp2mu_histos_11.root 
+Placing file 'zp2mu_histos_8.root' in retrieval queue 
+Placing file 'zp2mu_histos_21.root' in retrieval queue 
+Placing file 'zp2mu_histos_16.root' in retrieval queue 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_78.root 
+Retrieving zp2mu_histos_69.root 
+Success: Success in retrieving zp2mu_histos_62.root 
+Retrieving zp2mu_histos_142.root 
+Success: Success in retrieving zp2mu_histos_50.root 
+Retrieving zp2mu_histos_29.root 
+Success: Success in retrieving zp2mu_histos_45.root 
+Retrieving zp2mu_histos_148.root 
+Placing file 'zp2mu_histos_14.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_77.root 
+Retrieving zp2mu_histos_147.root 
+Placing file 'zp2mu_histos_7.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_70.root 
+Retrieving zp2mu_histos_146.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_49.root 
+Retrieving zp2mu_histos_144.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Placing file 'zp2mu_histos_46.root' in retrieval queue 
+Placing file 'zp2mu_histos_42.root' in retrieval queue 
+Placing file 'zp2mu_histos_60.root' in retrieval queue 
+Placing file 'zp2mu_histos_37.root' in retrieval queue 
+Placing file 'zp2mu_histos_139.root' in retrieval queue 
+Placing file 'zp2mu_histos_96.root' in retrieval queue 
+Placing file 'zp2mu_histos_59.root' in retrieval queue 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_25.root 
+Retrieving zp2mu_histos_143.root 
+Placing file 'zp2mu_histos_114.root' in retrieval queue 
+Placing file 'zp2mu_histos_12.root' in retrieval queue 
+Placing file 'zp2mu_histos_76.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_44.root 
+Retrieving zp2mu_histos_141.root 
+Placing file 'zp2mu_histos_126.root' in retrieval queue 
+Placing file 'zp2mu_histos_74.root' in retrieval queue 
+Placing file 'zp2mu_histos_48.root' in retrieval queue 
+Placing file 'zp2mu_histos_117.root' in retrieval queue 
+Placing file 'zp2mu_histos_24.root' in retrieval queue 
+Placing file 'zp2mu_histos_54.root' in retrieval queue 
+Placing file 'zp2mu_histos_56.root' in retrieval queue 
+Placing file 'zp2mu_histos_64.root' in retrieval queue 
+Placing file 'zp2mu_histos_73.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_142.root 
+Retrieving zp2mu_histos_140.root 
+Success: Success in retrieving zp2mu_histos_11.root 
+Retrieving zp2mu_histos_138.root 
+Placing file 'zp2mu_histos_131.root' in retrieval queue 
+Placing file 'zp2mu_histos_41.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_69.root 
+Retrieving zp2mu_histos_137.root 
+Placing file 'zp2mu_histos_61.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_29.root 
+Retrieving zp2mu_histos_136.root 
+Placing file 'zp2mu_histos_23.root' in retrieval queue 
+Placing file 'zp2mu_histos_110.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_148.root 
+Retrieving zp2mu_histos_135.root 
+Success: Success in retrieving zp2mu_histos_147.root 
+Retrieving zp2mu_histos_132.root 
+Placing file 'zp2mu_histos_27.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_146.root 
+Retrieving zp2mu_histos_133.root 
+Placing file 'zp2mu_histos_31.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_144.root 
+Retrieving zp2mu_histos_130.root 
+Placing file 'zp2mu_histos_103.root' in retrieval queue 
+Placing file 'zp2mu_histos_124.root' in retrieval queue 
+Placing file 'zp2mu_histos_10.root' in retrieval queue 
+Placing file 'zp2mu_histos_13.root' in retrieval queue 
+Placing file 'zp2mu_histos_121.root' in retrieval queue 
+Please wait
+Success: Success in retrieving zp2mu_histos_143.root 
+Retrieving zp2mu_histos_123.root 
+Success: Success in retrieving zp2mu_histos_141.root 
+Success: Success in retrieving zp2mu_histos_138.root 
+Retrieving zp2mu_histos_127.root 
+Retrieving zp2mu_histos_118.root 
+Success: Success in retrieving zp2mu_histos_137.root 
+Retrieving zp2mu_histos_120.root 
+Success: Success in retrieving zp2mu_histos_140.root 
+Retrieving zp2mu_histos_122.root 
+Success: Success in retrieving zp2mu_histos_136.root 
+Retrieving zp2mu_histos_119.root 
+Success: Success in retrieving zp2mu_histos_133.root 
+Retrieving zp2mu_histos_113.root 
+Success: Success in retrieving zp2mu_histos_132.root 
+Retrieving zp2mu_histos_112.root 
+Success: Success in retrieving zp2mu_histos_130.root 
+Retrieving zp2mu_histos_111.root 
+Success: Success in retrieving zp2mu_histos_135.root 
+Retrieving zp2mu_histos_109.root 
+Success: Success in retrieving zp2mu_histos_123.root 
+Retrieving zp2mu_histos_107.root 
+Success: Success in retrieving zp2mu_histos_127.root 
+Retrieving zp2mu_histos_106.root 
+Success: Success in retrieving zp2mu_histos_120.root 
+Retrieving zp2mu_histos_100.root 
+Success: Success in retrieving zp2mu_histos_118.root 
+Retrieving zp2mu_histos_98.root 
+Success: Success in retrieving zp2mu_histos_113.root 
+Retrieving zp2mu_histos_97.root 
+Success: Success in retrieving zp2mu_histos_122.root 
+Retrieving zp2mu_histos_89.root 
+Success: Success in retrieving zp2mu_histos_119.root 
+Retrieving zp2mu_histos_91.root 
+Success: Success in retrieving zp2mu_histos_112.root 
+Retrieving zp2mu_histos_87.root 
+Success: Success in retrieving zp2mu_histos_109.root 
+Retrieving zp2mu_histos_88.root 
+Success: Success in retrieving zp2mu_histos_111.root 
+Retrieving zp2mu_histos_86.root 
+Success: Success in retrieving zp2mu_histos_107.root 
+Retrieving zp2mu_histos_84.root 
+Success: Success in retrieving zp2mu_histos_106.root 
+Retrieving zp2mu_histos_85.root 
+Success: Success in retrieving zp2mu_histos_100.root 
+Retrieving zp2mu_histos_82.root 
+Success: Success in retrieving zp2mu_histos_98.root 
+Retrieving zp2mu_histos_79.root 
+Success: Success in retrieving zp2mu_histos_97.root 
+Retrieving zp2mu_histos_75.root 
+Success: Success in retrieving zp2mu_histos_89.root 
+Retrieving zp2mu_histos_72.root 
+Success: Success in retrieving zp2mu_histos_87.root 
+Success: Success in retrieving zp2mu_histos_91.root 
+Retrieving zp2mu_histos_71.root 
+Retrieving zp2mu_histos_68.root 
+Success: Success in retrieving zp2mu_histos_88.root 
+Retrieving zp2mu_histos_67.root 
+Success: Success in retrieving zp2mu_histos_86.root 
+Retrieving zp2mu_histos_66.root 
+Success: Success in retrieving zp2mu_histos_84.root 
+Retrieving zp2mu_histos_63.root 
+Success: Success in retrieving zp2mu_histos_85.root 
+Retrieving zp2mu_histos_65.root 
+Success: Success in retrieving zp2mu_histos_79.root 
+Retrieving zp2mu_histos_55.root 
+Success: Success in retrieving zp2mu_histos_82.root 
+Retrieving zp2mu_histos_57.root 
+Success: Success in retrieving zp2mu_histos_72.root 
+Retrieving zp2mu_histos_58.root 
+Success: Success in retrieving zp2mu_histos_75.root 
+Retrieving zp2mu_histos_53.root 
+Success: Success in retrieving zp2mu_histos_67.root 
+Retrieving zp2mu_histos_52.root 
+Success: Success in retrieving zp2mu_histos_71.root 
+Retrieving zp2mu_histos_51.root 
+Success: Success in retrieving zp2mu_histos_68.root 
+Retrieving zp2mu_histos_47.root 
+Success: Success in retrieving zp2mu_histos_66.root 
+Retrieving zp2mu_histos_40.root 
+Success: Success in retrieving zp2mu_histos_63.root 
+Retrieving zp2mu_histos_43.root 
+Success: Success in retrieving zp2mu_histos_65.root 
+Retrieving zp2mu_histos_39.root 
+Success: Success in retrieving zp2mu_histos_58.root 
+Retrieving zp2mu_histos_38.root 
+Success: Success in retrieving zp2mu_histos_57.root 
+Retrieving zp2mu_histos_35.root 
+Success: Success in retrieving zp2mu_histos_55.root 
+Retrieving zp2mu_histos_34.root 
+Success: Success in retrieving zp2mu_histos_52.root 
+Success: Success in retrieving zp2mu_histos_53.root 
+Retrieving zp2mu_histos_36.root 
+Retrieving zp2mu_histos_32.root 
+Success: Success in retrieving zp2mu_histos_47.root 
+Retrieving zp2mu_histos_30.root 
+Success: Success in retrieving zp2mu_histos_51.root 
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_40.root 
+Retrieving zp2mu_histos_19.root 
+Success: Success in retrieving zp2mu_histos_43.root 
+Retrieving zp2mu_histos_26.root 
+Success: Success in retrieving zp2mu_histos_39.root 
+Retrieving zp2mu_histos_22.root 
+Success: Success in retrieving zp2mu_histos_38.root 
+Retrieving zp2mu_histos_15.root 
+Success: Success in retrieving zp2mu_histos_35.root 
+Retrieving zp2mu_histos_28.root 
+Success: Success in retrieving zp2mu_histos_36.root 
+Retrieving zp2mu_histos_9.root 
+Success: Success in retrieving zp2mu_histos_34.root 
+Retrieving zp2mu_histos_18.root 
+Success: Success in retrieving zp2mu_histos_32.root 
+Retrieving zp2mu_histos_20.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Retrieving zp2mu_histos_17.root 
+Success: Success in retrieving zp2mu_histos_30.root 
+Retrieving zp2mu_histos_8.root 
+Success: Success in retrieving zp2mu_histos_19.root 
+Retrieving zp2mu_histos_21.root 
+Success: Success in retrieving zp2mu_histos_26.root 
+Retrieving zp2mu_histos_16.root 
+Success: Success in retrieving zp2mu_histos_28.root 
+Retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_9.root 
+Retrieving zp2mu_histos_14.root 
+Success: Success in retrieving zp2mu_histos_22.root 
+Retrieving zp2mu_histos_7.root 
+Success: Success in retrieving zp2mu_histos_18.root 
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_15.root 
+Retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_17.root 
+Retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_8.root 
+Retrieving zp2mu_histos_46.root 
+Success: Success in retrieving zp2mu_histos_20.root 
+Retrieving zp2mu_histos_42.root 
+Success: Success in retrieving zp2mu_histos_21.root 
+Retrieving zp2mu_histos_60.root 
+Success: Success in retrieving zp2mu_histos_16.root 
+Retrieving zp2mu_histos_37.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Retrieving zp2mu_histos_139.root 
+Success: Success in retrieving zp2mu_histos_7.root 
+Retrieving zp2mu_histos_96.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Retrieving zp2mu_histos_59.root 
+Success: Success in retrieving zp2mu_histos_14.root 
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_46.root 
+Retrieving zp2mu_histos_114.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Retrieving zp2mu_histos_12.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_42.root 
+Retrieving zp2mu_histos_76.root 
+Retrieving zp2mu_histos_126.root 
+Success: Success in retrieving zp2mu_histos_60.root 
+Retrieving zp2mu_histos_74.root 
+Success: Success in retrieving zp2mu_histos_37.root 
+Retrieving zp2mu_histos_48.root 
+Success: Success in retrieving zp2mu_histos_139.root 
+Retrieving zp2mu_histos_117.root 
+Success: Success in retrieving zp2mu_histos_96.root 
+Retrieving zp2mu_histos_24.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Retrieving zp2mu_histos_54.root 
+Success: Success in retrieving zp2mu_histos_59.root 
+Retrieving zp2mu_histos_56.root 
+Success: Success in retrieving zp2mu_histos_114.root 
+Retrieving zp2mu_histos_64.root 
+Success: Success in retrieving zp2mu_histos_76.root 
+Retrieving zp2mu_histos_73.root 
+Success: Success in retrieving zp2mu_histos_126.root 
+Retrieving zp2mu_histos_131.root 
+Success: Success in retrieving zp2mu_histos_74.root 
+Retrieving zp2mu_histos_41.root 
+Success: Success in retrieving zp2mu_histos_12.root 
+Retrieving zp2mu_histos_61.root 
+Success: Success in retrieving zp2mu_histos_48.root 
+Retrieving zp2mu_histos_23.root 
+Success: Success in retrieving zp2mu_histos_24.root 
+Retrieving zp2mu_histos_110.root 
+Success: Success in retrieving zp2mu_histos_54.root 
+Success: Success in retrieving zp2mu_histos_117.root 
+Retrieving zp2mu_histos_27.root 
+Retrieving zp2mu_histos_31.root 
+Success: Success in retrieving zp2mu_histos_56.root 
+Retrieving zp2mu_histos_103.root 
+Success: Success in retrieving zp2mu_histos_64.root 
+Retrieving zp2mu_histos_124.root 
+Success: Success in retrieving zp2mu_histos_73.root 
+Retrieving zp2mu_histos_10.root 
+Success: Success in retrieving zp2mu_histos_131.root 
+Retrieving zp2mu_histos_13.root 
+Success: Success in retrieving zp2mu_histos_41.root 
+Retrieving zp2mu_histos_121.root 
+Success: Success in retrieving zp2mu_histos_61.root 
+Success: Success in retrieving zp2mu_histos_23.root 
+Success: Success in retrieving zp2mu_histos_110.root 
+Success: Success in retrieving zp2mu_histos_31.root 
+Success: Success in retrieving zp2mu_histos_103.root 
+Success: Success in retrieving zp2mu_histos_124.root 
+Success: Success in retrieving zp2mu_histos_27.root 
+Success: Success in retrieving zp2mu_histos_13.root 
+Success: Success in retrieving zp2mu_histos_10.root 
+Success: Success in retrieving zp2mu_histos_121.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy120/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy200/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy200/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy400/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy400/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy800/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy800/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy1400/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy1400/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy2300/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy2300/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy3500/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy3500/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy4500/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy4500/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy6000/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dy6000/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dyInf/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_noRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_noRand_20171010_dyInf/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy120/results 
+Retrieving 149 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_78.root' in retrieval queue 
+Retrieving zp2mu_histos_78.root 
+Placing file 'zp2mu_histos_125.root' in retrieval queue 
+Retrieving zp2mu_histos_125.root 
+Placing file 'zp2mu_histos_30.root' in retrieval queue 
+Retrieving zp2mu_histos_30.root 
+Placing file 'zp2mu_histos_18.root' in retrieval queue 
+Retrieving zp2mu_histos_18.root 
+Placing file 'zp2mu_histos_85.root' in retrieval queue 
+Retrieving zp2mu_histos_85.root 
+Placing file 'zp2mu_histos_132.root' in retrieval queue 
+Retrieving zp2mu_histos_132.root 
+Placing file 'zp2mu_histos_96.root' in retrieval queue 
+Retrieving zp2mu_histos_96.root 
+Placing file 'zp2mu_histos_114.root' in retrieval queue 
+Retrieving zp2mu_histos_114.root 
+Placing file 'zp2mu_histos_87.root' in retrieval queue 
+Retrieving zp2mu_histos_87.root 
+Placing file 'zp2mu_histos_102.root' in retrieval queue 
+Retrieving zp2mu_histos_102.root 
+Placing file 'zp2mu_histos_112.root' in retrieval queue 
+Placing file 'zp2mu_histos_94.root' in retrieval queue 
+Placing file 'zp2mu_histos_69.root' in retrieval queue 
+Placing file 'zp2mu_histos_9.root' in retrieval queue 
+Placing file 'zp2mu_histos_15.root' in retrieval queue 
+Placing file 'zp2mu_histos_76.root' in retrieval queue 
+Placing file 'zp2mu_histos_63.root' in retrieval queue 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Placing file 'zp2mu_histos_28.root' in retrieval queue 
+Placing file 'zp2mu_histos_68.root' in retrieval queue 
+Placing file 'zp2mu_histos_58.root' in retrieval queue 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Placing file 'zp2mu_histos_122.root' in retrieval queue 
+Placing file 'zp2mu_histos_145.root' in retrieval queue 
+Placing file 'zp2mu_histos_147.root' in retrieval queue 
+Placing file 'zp2mu_histos_65.root' in retrieval queue 
+Placing file 'zp2mu_histos_137.root' in retrieval queue 
+Placing file 'zp2mu_histos_138.root' in retrieval queue 
+Placing file 'zp2mu_histos_144.root' in retrieval queue 
+Placing file 'zp2mu_histos_123.root' in retrieval queue 
+Placing file 'zp2mu_histos_131.root' in retrieval queue 
+Placing file 'zp2mu_histos_121.root' in retrieval queue 
+Placing file 'zp2mu_histos_118.root' in retrieval queue 
+Placing file 'zp2mu_histos_117.root' in retrieval queue 
+Placing file 'zp2mu_histos_111.root' in retrieval queue 
+Placing file 'zp2mu_histos_110.root' in retrieval queue 
+Placing file 'zp2mu_histos_107.root' in retrieval queue 
+Placing file 'zp2mu_histos_100.root' in retrieval queue 
+Placing file 'zp2mu_histos_95.root' in retrieval queue 
+Placing file 'zp2mu_histos_99.root' in retrieval queue 
+Placing file 'zp2mu_histos_93.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_78.root 
+Placing file 'zp2mu_histos_91.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_18.root 
+Success: Success in retrieving zp2mu_histos_30.root 
+Retrieving zp2mu_histos_112.root 
+Placing file 'zp2mu_histos_90.root' in retrieval queue 
+Retrieving zp2mu_histos_94.root 
+Placing file 'zp2mu_histos_92.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_114.root 
+Retrieving zp2mu_histos_69.root 
+Retrieving zp2mu_histos_9.root 
+Placing file 'zp2mu_histos_88.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_87.root 
+Retrieving zp2mu_histos_15.root 
+Success: Success in retrieving zp2mu_histos_132.root 
+Placing file 'zp2mu_histos_89.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_102.root 
+Retrieving zp2mu_histos_76.root 
+Placing file 'zp2mu_histos_86.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_96.root 
+Retrieving zp2mu_histos_63.root 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_83.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_85.root 
+Retrieving zp2mu_histos_28.root 
+Placing file 'zp2mu_histos_81.root' in retrieval queue 
+Placing file 'zp2mu_histos_80.root' in retrieval queue 
+Placing file 'zp2mu_histos_79.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_125.root 
+Retrieving zp2mu_histos_68.root 
+Placing file 'zp2mu_histos_77.root' in retrieval queue 
+Placing file 'zp2mu_histos_72.root' in retrieval queue 
+Placing file 'zp2mu_histos_70.root' in retrieval queue 
+Placing file 'zp2mu_histos_66.root' in retrieval queue 
+Placing file 'zp2mu_histos_36.root' in retrieval queue 
+Placing file 'zp2mu_histos_55.root' in retrieval queue 
+Placing file 'zp2mu_histos_59.root' in retrieval queue 
+Placing file 'zp2mu_histos_56.root' in retrieval queue 
+Placing file 'zp2mu_histos_43.root' in retrieval queue 
+Placing file 'zp2mu_histos_29.root' in retrieval queue 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Placing file 'zp2mu_histos_57.root' in retrieval queue 
+Placing file 'zp2mu_histos_53.root' in retrieval queue 
+Placing file 'zp2mu_histos_41.root' in retrieval queue 
+Placing file 'zp2mu_histos_16.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_69.root 
+Retrieving zp2mu_histos_58.root 
+Success: Success in retrieving zp2mu_histos_94.root 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_49.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_9.root 
+Retrieving zp2mu_histos_122.root 
+Success: Success in retrieving zp2mu_histos_112.root 
+Retrieving zp2mu_histos_145.root 
+Placing file 'zp2mu_histos_20.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_2.root 
+Retrieving zp2mu_histos_147.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Placing file 'zp2mu_histos_13.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_76.root 
+Retrieving zp2mu_histos_65.root 
+Placing file 'zp2mu_histos_10.root' in retrieval queue 
+Placing file 'zp2mu_histos_67.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_28.root 
+Retrieving zp2mu_histos_137.root 
+Success: Success in retrieving zp2mu_histos_15.root 
+Retrieving zp2mu_histos_138.root 
+Placing file 'zp2mu_histos_32.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_63.root 
+Retrieving zp2mu_histos_144.root 
+Placing file 'zp2mu_histos_136.root' in retrieval queue 
+Placing file 'zp2mu_histos_98.root' in retrieval queue 
+Placing file 'zp2mu_histos_141.root' in retrieval queue 
+Placing file 'zp2mu_histos_12.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_68.root 
+Retrieving zp2mu_histos_123.root 
+Placing file 'zp2mu_histos_140.root' in retrieval queue 
+Placing file 'zp2mu_histos_103.root' in retrieval queue 
+Placing file 'zp2mu_histos_135.root' in retrieval queue 
+Placing file 'zp2mu_histos_143.root' in retrieval queue 
+Placing file 'zp2mu_histos_40.root' in retrieval queue 
+Placing file 'zp2mu_histos_17.root' in retrieval queue 
+Placing file 'zp2mu_histos_61.root' in retrieval queue 
+Placing file 'zp2mu_histos_26.root' in retrieval queue 
+Placing file 'zp2mu_histos_116.root' in retrieval queue 
+Placing file 'zp2mu_histos_124.root' in retrieval queue 
+Placing file 'zp2mu_histos_47.root' in retrieval queue 
+Placing file 'zp2mu_histos_8.root' in retrieval queue 
+Placing file 'zp2mu_histos_109.root' in retrieval queue 
+Placing file 'zp2mu_histos_44.root' in retrieval queue 
+Placing file 'zp2mu_histos_31.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_1.root 
+Retrieving zp2mu_histos_131.root 
+Placing file 'zp2mu_histos_120.root' in retrieval queue 
+Placing file 'zp2mu_histos_35.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_58.root 
+Success: Success in retrieving zp2mu_histos_145.root 
+Retrieving zp2mu_histos_121.root 
+Retrieving zp2mu_histos_118.root 
+Placing file 'zp2mu_histos_126.root' in retrieval queue 
+Placing file 'zp2mu_histos_84.root' in retrieval queue 
+Placing file 'zp2mu_histos_7.root' in retrieval queue 
+Placing file 'zp2mu_histos_52.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_65.root 
+Retrieving zp2mu_histos_117.root 
+Placing file 'zp2mu_histos_129.root' in retrieval queue 
+Placing file 'zp2mu_histos_142.root' in retrieval queue 
+Placing file 'zp2mu_histos_33.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_137.root 
+Retrieving zp2mu_histos_111.root 
+Success: Success in retrieving zp2mu_histos_144.root 
+Retrieving zp2mu_histos_110.root 
+Success: Success in retrieving zp2mu_histos_147.root 
+Retrieving zp2mu_histos_107.root 
+Placing file 'zp2mu_histos_50.root' in retrieval queue 
+Placing file 'zp2mu_histos_101.root' in retrieval queue 
+Placing file 'zp2mu_histos_149.root' in retrieval queue 
+Placing file 'zp2mu_histos_23.root' in retrieval queue 
+Placing file 'zp2mu_histos_105.root' in retrieval queue 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Placing file 'zp2mu_histos_82.root' in retrieval queue 
+Placing file 'zp2mu_histos_127.root' in retrieval queue 
+Placing file 'zp2mu_histos_130.root' in retrieval queue 
+Placing file 'zp2mu_histos_71.root' in retrieval queue 
+Placing file 'zp2mu_histos_115.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_122.root 
+Retrieving zp2mu_histos_100.root 
+Success: Success in retrieving zp2mu_histos_138.root 
+Placing file 'zp2mu_histos_108.root' in retrieval queue 
+Retrieving zp2mu_histos_95.root 
+Placing file 'zp2mu_histos_45.root' in retrieval queue 
+Placing file 'zp2mu_histos_75.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_123.root 
+Retrieving zp2mu_histos_99.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Placing file 'zp2mu_histos_48.root' in retrieval queue 
+Placing file 'zp2mu_histos_25.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_131.root 
+Retrieving zp2mu_histos_93.root 
+Placing file 'zp2mu_histos_51.root' in retrieval queue 
+Placing file 'zp2mu_histos_24.root' in retrieval queue 
+Placing file 'zp2mu_histos_133.root' in retrieval queue 
+Placing file 'zp2mu_histos_46.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_121.root 
+Retrieving zp2mu_histos_91.root 
+Placing file 'zp2mu_histos_34.root' in retrieval queue 
+Placing file 'zp2mu_histos_38.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_118.root 
+Retrieving zp2mu_histos_90.root 
+Placing file 'zp2mu_histos_106.root' in retrieval queue 
+Placing file 'zp2mu_histos_97.root' in retrieval queue 
+Placing file 'zp2mu_histos_21.root' in retrieval queue 
+Placing file 'zp2mu_histos_148.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_107.root 
+Retrieving zp2mu_histos_92.root 
+Success: Success in retrieving zp2mu_histos_117.root 
+Retrieving zp2mu_histos_88.root 
+Placing file 'zp2mu_histos_19.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_111.root 
+Retrieving zp2mu_histos_89.root 
+Success: Success in retrieving zp2mu_histos_110.root 
+Retrieving zp2mu_histos_86.root 
+Placing file 'zp2mu_histos_54.root' in retrieval queue 
+Placing file 'zp2mu_histos_128.root' in retrieval queue 
+Placing file 'zp2mu_histos_74.root' in retrieval queue 
+Placing file 'zp2mu_histos_139.root' in retrieval queue 
+Placing file 'zp2mu_histos_22.root' in retrieval queue 
+Placing file 'zp2mu_histos_113.root' in retrieval queue 
+Placing file 'zp2mu_histos_39.root' in retrieval queue 
+Placing file 'zp2mu_histos_146.root' in retrieval queue 
+Placing file 'zp2mu_histos_42.root' in retrieval queue 
+Placing file 'zp2mu_histos_64.root' in retrieval queue 
+Placing file 'zp2mu_histos_134.root' in retrieval queue 
+Placing file 'zp2mu_histos_119.root' in retrieval queue 
+Placing file 'zp2mu_histos_73.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_95.root 
+Retrieving zp2mu_histos_83.root 
+Placing file 'zp2mu_histos_62.root' in retrieval queue 
+Placing file 'zp2mu_histos_27.root' in retrieval queue 
+Placing file 'zp2mu_histos_60.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_100.root 
+Retrieving zp2mu_histos_81.root 
+Placing file 'zp2mu_histos_37.root' in retrieval queue 
+Success: Success in retrieving zp2mu_histos_99.root 
+Retrieving zp2mu_histos_80.root 
+Success: Success in retrieving zp2mu_histos_93.root 
+Placing file 'zp2mu_histos_104.root' in retrieval queue 
+Retrieving zp2mu_histos_79.root 
+Placing file 'zp2mu_histos_14.root' in retrieval queue 
+Placing file 'zp2mu_histos_11.root' in retrieval queue 
+Please wait
+Success: Success in retrieving zp2mu_histos_91.root 
+Retrieving zp2mu_histos_77.root 
+Success: Success in retrieving zp2mu_histos_90.root 
+Retrieving zp2mu_histos_72.root 
+Success: Success in retrieving zp2mu_histos_88.root 
+Retrieving zp2mu_histos_70.root 
+Success: Success in retrieving zp2mu_histos_92.root 
+Retrieving zp2mu_histos_66.root 
+Success: Success in retrieving zp2mu_histos_89.root 
+Retrieving zp2mu_histos_36.root 
+Success: Success in retrieving zp2mu_histos_86.root 
+Retrieving zp2mu_histos_55.root 
+Success: Success in retrieving zp2mu_histos_83.root 
+Retrieving zp2mu_histos_59.root 
+Success: Success in retrieving zp2mu_histos_81.root 
+Retrieving zp2mu_histos_56.root 
+Success: Success in retrieving zp2mu_histos_79.root 
+Retrieving zp2mu_histos_43.root 
+Success: Success in retrieving zp2mu_histos_80.root 
+Retrieving zp2mu_histos_29.root 
+Success: Success in retrieving zp2mu_histos_77.root 
+Retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_72.root 
+Retrieving zp2mu_histos_57.root 
+Success: Success in retrieving zp2mu_histos_70.root 
+Retrieving zp2mu_histos_53.root 
+Success: Success in retrieving zp2mu_histos_66.root 
+Retrieving zp2mu_histos_41.root 
+Success: Success in retrieving zp2mu_histos_36.root 
+Retrieving zp2mu_histos_16.root 
+Success: Success in retrieving zp2mu_histos_55.root 
+Retrieving zp2mu_histos_49.root 
+Success: Success in retrieving zp2mu_histos_59.root 
+Retrieving zp2mu_histos_20.root 
+Success: Success in retrieving zp2mu_histos_56.root 
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_43.root 
+Retrieving zp2mu_histos_13.root 
+Success: Success in retrieving zp2mu_histos_29.root 
+Retrieving zp2mu_histos_10.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Retrieving zp2mu_histos_67.root 
+Success: Success in retrieving zp2mu_histos_57.root 
+Retrieving zp2mu_histos_32.root 
+Success: Success in retrieving zp2mu_histos_53.root 
+Retrieving zp2mu_histos_136.root 
+Success: Success in retrieving zp2mu_histos_41.root 
+Retrieving zp2mu_histos_98.root 
+Success: Success in retrieving zp2mu_histos_16.root 
+Retrieving zp2mu_histos_141.root 
+Success: Success in retrieving zp2mu_histos_49.root 
+Retrieving zp2mu_histos_12.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Retrieving zp2mu_histos_140.root 
+Success: Success in retrieving zp2mu_histos_10.root 
+Retrieving zp2mu_histos_103.root 
+Success: Success in retrieving zp2mu_histos_20.root 
+Retrieving zp2mu_histos_135.root 
+Success: Success in retrieving zp2mu_histos_13.root 
+Retrieving zp2mu_histos_143.root 
+Success: Success in retrieving zp2mu_histos_136.root 
+Retrieving zp2mu_histos_40.root 
+Success: Success in retrieving zp2mu_histos_32.root 
+Retrieving zp2mu_histos_17.root 
+Success: Success in retrieving zp2mu_histos_67.root 
+Retrieving zp2mu_histos_61.root 
+Success: Success in retrieving zp2mu_histos_98.root 
+Retrieving zp2mu_histos_26.root 
+Success: Success in retrieving zp2mu_histos_141.root 
+Retrieving zp2mu_histos_116.root 
+Success: Success in retrieving zp2mu_histos_12.root 
+Retrieving zp2mu_histos_124.root 
+Success: Success in retrieving zp2mu_histos_140.root 
+Success: Success in retrieving zp2mu_histos_103.root 
+Retrieving zp2mu_histos_47.root 
+Retrieving zp2mu_histos_8.root 
+Success: Success in retrieving zp2mu_histos_135.root 
+Retrieving zp2mu_histos_109.root 
+Success: Success in retrieving zp2mu_histos_143.root 
+Retrieving zp2mu_histos_44.root 
+Success: Success in retrieving zp2mu_histos_40.root 
+Retrieving zp2mu_histos_31.root 
+Success: Success in retrieving zp2mu_histos_17.root 
+Retrieving zp2mu_histos_120.root 
+Success: Success in retrieving zp2mu_histos_61.root 
+Retrieving zp2mu_histos_35.root 
+Success: Success in retrieving zp2mu_histos_26.root 
+Retrieving zp2mu_histos_126.root 
+Success: Success in retrieving zp2mu_histos_116.root 
+Retrieving zp2mu_histos_84.root 
+Success: Success in retrieving zp2mu_histos_47.root 
+Retrieving zp2mu_histos_7.root 
+Success: Success in retrieving zp2mu_histos_124.root 
+Retrieving zp2mu_histos_52.root 
+Success: Success in retrieving zp2mu_histos_109.root 
+Retrieving zp2mu_histos_129.root 
+Success: Success in retrieving zp2mu_histos_8.root 
+Retrieving zp2mu_histos_142.root 
+Success: Success in retrieving zp2mu_histos_44.root 
+Retrieving zp2mu_histos_33.root 
+Success: Success in retrieving zp2mu_histos_31.root 
+Retrieving zp2mu_histos_50.root 
+Success: Success in retrieving zp2mu_histos_120.root 
+Retrieving zp2mu_histos_101.root 
+Success: Success in retrieving zp2mu_histos_35.root 
+Retrieving zp2mu_histos_149.root 
+Success: Success in retrieving zp2mu_histos_126.root 
+Retrieving zp2mu_histos_23.root 
+Success: Success in retrieving zp2mu_histos_7.root 
+Retrieving zp2mu_histos_105.root 
+Success: Success in retrieving zp2mu_histos_84.root 
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_129.root 
+Retrieving zp2mu_histos_82.root 
+Success: Success in retrieving zp2mu_histos_52.root 
+Retrieving zp2mu_histos_127.root 
+Success: Success in retrieving zp2mu_histos_142.root 
+Retrieving zp2mu_histos_130.root 
+Success: Success in retrieving zp2mu_histos_50.root 
+Retrieving zp2mu_histos_71.root 
+Success: Success in retrieving zp2mu_histos_33.root 
+Retrieving zp2mu_histos_115.root 
+Success: Success in retrieving zp2mu_histos_101.root 
+Retrieving zp2mu_histos_108.root 
+Success: Success in retrieving zp2mu_histos_23.root 
+Retrieving zp2mu_histos_45.root 
+Success: Success in retrieving zp2mu_histos_149.root 
+Retrieving zp2mu_histos_75.root 
+Success: Success in retrieving zp2mu_histos_105.root 
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_127.root 
+Retrieving zp2mu_histos_48.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Retrieving zp2mu_histos_25.root 
+Success: Success in retrieving zp2mu_histos_130.root 
+Retrieving zp2mu_histos_51.root 
+Success: Success in retrieving zp2mu_histos_82.root 
+Retrieving zp2mu_histos_24.root 
+Success: Success in retrieving zp2mu_histos_115.root 
+Retrieving zp2mu_histos_133.root 
+Success: Success in retrieving zp2mu_histos_71.root 
+Retrieving zp2mu_histos_46.root 
+Success: Success in retrieving zp2mu_histos_75.root 
+Retrieving zp2mu_histos_34.root 
+Success: Success in retrieving zp2mu_histos_45.root 
+Retrieving zp2mu_histos_38.root 
+Success: Success in retrieving zp2mu_histos_108.root 
+Retrieving zp2mu_histos_106.root 
+Success: Success in retrieving zp2mu_histos_48.root 
+Retrieving zp2mu_histos_97.root 
+Success: Success in retrieving zp2mu_histos_51.root 
+Retrieving zp2mu_histos_21.root 
+Success: Success in retrieving zp2mu_histos_24.root 
+Retrieving zp2mu_histos_148.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Retrieving zp2mu_histos_19.root 
+Success: Success in retrieving zp2mu_histos_25.root 
+Retrieving zp2mu_histos_54.root 
+Success: Success in retrieving zp2mu_histos_133.root 
+Retrieving zp2mu_histos_128.root 
+Success: Success in retrieving zp2mu_histos_34.root 
+Retrieving zp2mu_histos_74.root 
+Success: Success in retrieving zp2mu_histos_46.root 
+Retrieving zp2mu_histos_139.root 
+Success: Success in retrieving zp2mu_histos_38.root 
+Retrieving zp2mu_histos_22.root 
+Success: Success in retrieving zp2mu_histos_106.root 
+Success: Success in retrieving zp2mu_histos_97.root 
+Retrieving zp2mu_histos_113.root 
+Retrieving zp2mu_histos_39.root 
+Success: Success in retrieving zp2mu_histos_19.root 
+Retrieving zp2mu_histos_146.root 
+Success: Success in retrieving zp2mu_histos_21.root 
+Retrieving zp2mu_histos_42.root 
+Success: Success in retrieving zp2mu_histos_148.root 
+Retrieving zp2mu_histos_64.root 
+Success: Success in retrieving zp2mu_histos_54.root 
+Retrieving zp2mu_histos_134.root 
+Success: Success in retrieving zp2mu_histos_74.root 
+Retrieving zp2mu_histos_119.root 
+Success: Success in retrieving zp2mu_histos_22.root 
+Retrieving zp2mu_histos_73.root 
+Success: Success in retrieving zp2mu_histos_113.root 
+Retrieving zp2mu_histos_62.root 
+Success: Success in retrieving zp2mu_histos_139.root 
+Retrieving zp2mu_histos_27.root 
+Success: Success in retrieving zp2mu_histos_39.root 
+Retrieving zp2mu_histos_60.root 
+Success: Success in retrieving zp2mu_histos_146.root 
+Retrieving zp2mu_histos_37.root 
+Success: Success in retrieving zp2mu_histos_42.root 
+Retrieving zp2mu_histos_104.root 
+Success: Success in retrieving zp2mu_histos_128.root 
+Retrieving zp2mu_histos_14.root 
+Success: Success in retrieving zp2mu_histos_64.root 
+Retrieving zp2mu_histos_11.root 
+Success: Success in retrieving zp2mu_histos_134.root 
+Success: Success in retrieving zp2mu_histos_119.root 
+Success: Success in retrieving zp2mu_histos_62.root 
+Success: Success in retrieving zp2mu_histos_73.root 
+Success: Success in retrieving zp2mu_histos_27.root 
+Success: Success in retrieving zp2mu_histos_60.root 
+Success: Success in retrieving zp2mu_histos_14.root 
+Success: Success in retrieving zp2mu_histos_104.root 
+Success: Success in retrieving zp2mu_histos_11.root 
+Success: Success in retrieving zp2mu_histos_37.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy120/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy200/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy200/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy400/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy400/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy800/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy800/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy1400/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy1400/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy2300/results 
+Retrieving 5 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy2300/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy3500/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy3500/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy4500/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy4500/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy6000/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Retrieving zp2mu_histos_5.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dy6000/crab.log
+Setting the destination to /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dyInf/results 
+Retrieving 6 files
+Will use `gfal-copy` command for file transfers
+Placing file 'zp2mu_histos_6.root' in retrieval queue 
+Retrieving zp2mu_histos_6.root 
+Placing file 'zp2mu_histos_2.root' in retrieval queue 
+Retrieving zp2mu_histos_2.root 
+Placing file 'zp2mu_histos_1.root' in retrieval queue 
+Retrieving zp2mu_histos_1.root 
+Placing file 'zp2mu_histos_4.root' in retrieval queue 
+Retrieving zp2mu_histos_4.root 
+Placing file 'zp2mu_histos_3.root' in retrieval queue 
+Retrieving zp2mu_histos_3.root 
+Placing file 'zp2mu_histos_5.root' in retrieval queue 
+Please wait
+Retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_6.root 
+Success: Success in retrieving zp2mu_histos_2.root 
+Success: Success in retrieving zp2mu_histos_4.root 
+Success: Success in retrieving zp2mu_histos_5.root 
+Success: Success in retrieving zp2mu_histos_1.root 
+Success: Success in retrieving zp2mu_histos_3.root 
+Success: All files successfully retrieved
+Log file is /u/user/msoh/ZPrime/AccXEff/CMSSW_8_0_26/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/EfficiencyResolutionFromMC/AccXEff/yesWei_yesRand/crab_AccXEff_20171010/crab_AccXEff_yesWei_yesRand_20171010_dyInf/crab.log
+
+|| -- noWei_noRand_dy120 -- ||
+
+|| -- noWei_noRand_dy200 -- ||
+
+|| -- noWei_noRand_dy400 -- ||
+
+|| -- noWei_noRand_dy800 -- ||
+
+|| -- noWei_noRand_dy1400 -- ||
+
+|| -- noWei_noRand_dy2300 -- ||
+
+|| -- noWei_noRand_dy3500 -- ||
+
+|| -- noWei_noRand_dy4500 -- ||
+
+|| -- noWei_noRand_dy6000 -- ||
+
+|| -- noWei_noRand_dyInf -- ||
+
+|| -- yesWei_noRand_dy120 -- ||
+
+|| -- yesWei_noRand_dy200 -- ||
+
+|| -- yesWei_noRand_dy400 -- ||
+
+|| -- yesWei_noRand_dy800 -- ||
+
+|| -- yesWei_noRand_dy1400 -- ||
+
+|| -- yesWei_noRand_dy2300 -- ||
+
+|| -- yesWei_noRand_dy3500 -- ||
+
+|| -- yesWei_noRand_dy4500 -- ||
+
+|| -- yesWei_noRand_dy6000 -- ||
+
+|| -- yesWei_noRand_dyInf -- ||
+
+|| -- yesWei_yesRand_dy120 -- ||
+
+|| -- yesWei_yesRand_dy200 -- ||
+
+|| -- yesWei_yesRand_dy400 -- ||
+
+|| -- yesWei_yesRand_dy800 -- ||
+
+|| -- yesWei_yesRand_dy1400 -- ||
+
+|| -- yesWei_yesRand_dy2300 -- ||
+
+|| -- yesWei_yesRand_dy3500 -- ||
+
+|| -- yesWei_yesRand_dy4500 -- ||
+
+|| -- yesWei_yesRand_dy6000 -- ||
+
+|| -- yesWei_yesRand_dyInf -- ||
