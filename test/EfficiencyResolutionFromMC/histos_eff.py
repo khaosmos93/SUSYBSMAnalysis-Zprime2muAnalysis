@@ -15,13 +15,14 @@ from SUSYBSMAnalysis.Zprime2muAnalysis.Zprime2muAnalysis_cfg import cms, process
 
 process.maxEvents.input = -1
 process.source.fileNames = [#'/store/mc/RunIISpring16MiniAODv1/ZToMuMu_NNPDF30_13TeV-powheg_M_120_200/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/30000/02244373-7E03-E611-B581-003048F5B2B4.root',
- 			'file:/u/user/msoh/Samples/MC/DY/M6000/0A222CC8-16C7-E611-BFC2-FA163E39B5B6.root', #M4500-6000                    
-			'file:/u/user/msoh/Samples/MC/DY/M6000/52FEE967-17C7-E611-9A69-FA163E2EED86.root',
-			'file:/u/user/msoh/Samples/MC/DY/M6000/A4999F0B-17C7-E611-A246-1866DAEA6D0C.root',
-			'file:/u/user/msoh/Samples/MC/DY/M6000/A8CCA36B-17C7-E611-8E4A-0090FAA57D64.root',
-			'file:/u/user/msoh/Samples/MC/DY/M6000/B86337F0-16C7-E611-BA6A-24BE05C44B91.root',
-			'file:/u/user/msoh/Samples/MC/DY/M6000/EA325C83-17C7-E611-AFA4-001E67E5E8B6.root',
-			'file:/u/user/msoh/Samples/MC/DY/M6000/F214122A-17C7-E611-9134-001E674FC800.root',
+ 			'file:/u/user/msoh/ZPrime/NM2018/TestSamples/MC/Z/9A770C5E-48B1-E711-84BF-D4AE526A0CFB.root',
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/0A222CC8-16C7-E611-BFC2-FA163E39B5B6.root', #M4500-6000                    
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/52FEE967-17C7-E611-9A69-FA163E2EED86.root',
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/A4999F0B-17C7-E611-A246-1866DAEA6D0C.root',
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/A8CCA36B-17C7-E611-8E4A-0090FAA57D64.root',
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/B86337F0-16C7-E611-BA6A-24BE05C44B91.root',
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/EA325C83-17C7-E611-AFA4-001E67E5E8B6.root',
+			#'file:/u/user/msoh/Samples/MC/DY/M6000/F214122A-17C7-E611-9134-001E674FC800.root',
 
 			#'file:/u/user/msoh/Data/MC/E412A19B-DCCF-E611-8050-0CC47A546E5E.root',  ##Moriond17 M50-120
 			#'file:/u/user/msoh/Data/MC/824C363B-0AC8-E611-B4A5-20CF3027A580.root', ##Moriond17

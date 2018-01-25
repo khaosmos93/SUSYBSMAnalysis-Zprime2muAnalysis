@@ -69,7 +69,7 @@
   <use name="DataFormats/HepMCCandidate"/>
 </library>
 <!-- <library file="AsymmetryFrameAnalysis.cc,AsymmetryParametrizer.cc,CocktailAnalyzer.cc,EfficiencyFromMC.cc,EfficiencyFromMCMini.cc,EfficiencyFromMCnoTrigger.cc,HardInteractionFilter.cc,DibosonGenMass.cc,TauTauSelection.cc,HardInteractionNtuple.cc,HistosFromPAT.cc, MuonsFromDimuons.cc,PrintEvent.cc,QCDBackground.cc,ResolutionUsingMC.cc,ResolutionAtZ.cc,SimpleNtupler.cc,SimpleNtupler_miniAOD.cc,Zprime2muAsymmetry.cc,Zprime2muMassReach.cc" name="Zprime2muAnalyzers"> -->
-<library file="AsymmetryFrameAnalysis.cc,AsymmetryParametrizer.cc,CocktailAnalyzer.cc,EfficiencyFromMC.cc,EfficiencyFromMCMini.cc,EfficiencyFromMCnoTrigger.cc,HardInteractionFilter.cc,DibosonGenMass.cc,TauTauSelection.cc,HardInteractionNtuple.cc,HistosFromPAT.cc, MuonsFromDimuons.cc,PrintEvent.cc,QCDBackground.cc,ResolutionUsingMC.cc,SimpleNtupler.cc,SimpleNtupler_miniAOD.cc,Zprime2muAsymmetry.cc,Zprime2muMassReach.cc" name="Zprime2muAnalyzers">
+<library file="AsymmetryFrameAnalysis.cc,AsymmetryParametrizer.cc,CocktailAnalyzer.cc,EfficiencyFromMC.cc,EfficiencyFromMCMini.cc,EfficiencyFromMCnoTrigger.cc,HardInteractionFilter.cc,DibosonGenMass.cc,TauTauSelection.cc,HardInteractionNtuple.cc,HistosFromPAT.cc,HistosNM1FromPAT.cc, MuonsFromDimuons.cc,PrintEvent.cc,QCDBackground.cc,ResolutionUsingMC.cc,SimpleNtupler.cc,SimpleNtupler_miniAOD.cc,Zprime2muAsymmetry.cc,Zprime2muMassReach.cc,GenPlots.cc" name="Zprime2muAnalyzers">
   <use name="ostream"/>
   <use name="rootgraphics"/>
   <use name="CommonTools/UtilAlgos"/>
@@ -100,7 +100,7 @@
 </library>
 
 # to study madgraph samples
-<!-- 
+<!--
 <library file="WeightAnalyzer.cc" name="WeightAnalyzer">
 <use name="ostream"/>
 <use name="CommonTools/UtilAlgos"/>
@@ -124,7 +124,7 @@
 # to filter events based on lepton multiplicity
 <library file="DileptonPreselector.cc" name="DileptonPreselector">
   <use name="DataFormats/PatCandidates"/>
-</library> 
+</library>
 # count events and event weights
 <library file="EventCounter.cc" name="EventCounter">
     <use name="SimDataFormats/GeneratorProducts"/>
