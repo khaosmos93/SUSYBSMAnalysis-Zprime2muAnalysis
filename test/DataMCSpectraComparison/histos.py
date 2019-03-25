@@ -42,7 +42,8 @@ if miniAOD:
     ####################################
     ZSkim = False #### Set TRUE to skim dy50to120 with a Z pt < 100 GeV #####
     ####################################
-    
+    doNminus1 = True  #### Set True to produce N-1 histograms
+
 else:
     from SUSYBSMAnalysis.Zprime2muAnalysis.HistosFromPAT_cfi import HistosFromPAT
     HistosFromPAT.leptonsFromDileptons = True
@@ -211,6 +212,12 @@ for cut_name, Selection in cuts.iteritems():
         setattr(process, name, dil)
         setattr(process, name + 'Histos', histos)
         path_list.append(alldil * dil * histos)
+
+        # -- Add N-1 histograms -- #
+        if doNminus1 and cut_name == 'Our2018' and dil_name == 'MuonsPlusMuonsMinus':
+            from addNminus1 import *
+            nm1_path_list = addNminus1Histos(process, leptons_name, name, HistosFromPAT)
+            path_list = path_list + nm1_path_list
 
     # Finally, make the path for this set of cuts.
     pathname = 'path' + cut_name
