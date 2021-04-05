@@ -248,6 +248,7 @@ def main():
 	parser.add_argument( "--add2016", action="store_true", dest="add2016", default=False, help="run ADD MC for 2016")
 	parser.add_argument( "--add2017", action="store_true", dest="add2017", default=False, help="run ADD MC for 2017")
 	parser.add_argument( "--add2018", action="store_true", dest="add2018", default=False, help="run ADD MC for 2018")
+	parser.add_argument("--proxy", action="store", dest="proxy", type=str  , default="",help="proxy for CRAB submission")
 	args = parser.parse_args()
 
 
@@ -488,7 +489,10 @@ def main():
 
 			#print getFilterSnippet(dataset_name)
 			open('cmssw_cfg.py', 'wt').write(cmssw_tmp)
-			os.system('crab submit -c crabConfig.py')
+			if args.proxy == "":
+				os.system('crab submit -c crabConfig.py')
+			else:
+				os.system('crab submit -c crabConfig.py --proxy='+args.proxy)
 
 
 		else:
