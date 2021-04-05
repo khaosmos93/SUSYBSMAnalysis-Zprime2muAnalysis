@@ -111,8 +111,8 @@ config.JobType.psetName = 'cmssw_cfg.py'
 config.Data.inputDBS = 'global'
 config.Data.publication = False
 config.Data.outputDatasetTag = 'dileptonAna_%s'
-config.Data.outLFNDirBase = '/store/user/jschulte'
-config.Site.storageSite = 'T2_US_Purdue'
+config.Data.outLFNDirBase = '/store/user/moh'
+config.Site.storageSite = 'T3_KR_KNU'
 #config.Site.whitelist = ['T2_ES_IFCA','T2_US_MIT','T2_US_UCSD']
 config.Data.userInputFiles = %s
 config.Data.splitting = 'FileBased'
@@ -142,13 +142,13 @@ config.Data.inputDBS = 'global'
 config.Data.publication = False
 config.Data.allowNonValidInputDataset = True
 config.Data.outputDatasetTag = 'dileptonAna_%s'
-config.Data.outLFNDirBase = '/store/user/jschulte/'
+config.Data.outLFNDirBase = '/store/user/moh'
 #config.Data.ignoreLocality = True
 #config.General.instance = 'preprod' 
-config.Site.storageSite = 'T2_US_Purdue'
+config.Site.storageSite = 'T3_KR_KNU'
 #config.JobType.maxMemoryMB  = 4000
 config.JobType.allowUndistributedCMSSW = True
-config.Site.blacklist = ['T2_US_Caltech']
+# config.Site.blacklist = ['T2_US_Caltech']
 %s
 '''
 	data_config='''
@@ -185,13 +185,13 @@ config.Data.inputDataset =  '%s'
 config.Data.inputDBS = 'global'
 config.Data.publication = False
 config.Data.outputDatasetTag = 'dileptonAna_%s'
-config.Data.outLFNDirBase = '/store/user/jschulte/'
+config.Data.outLFNDirBase = '/store/user/moh'
 config.Data.ignoreLocality = True
 config.Data.allowNonValidInputDataset = True
 #config.General.instance = 'preprod' 
-config.Site.whitelist = ["T2_US_*"]
-config.Site.blacklist = ['T2_US_Caltech']
-config.Site.storageSite = 'T2_US_Purdue'
+# config.Site.whitelist = ["T2_US_*"]
+# config.Site.blacklist = ['T2_US_Caltech']
+config.Site.storageSite = 'T3_KR_KNU'
 #config.JobType.maxMemoryMB  = 4000
 config.JobType.allowUndistributedCMSSW = True
 %s
@@ -268,7 +268,6 @@ def main():
 		GT = "94X_dataRun2_v11"
 		isMC = 'False'
 	arguments = {}
-	arguments["GT"] = GT
 	arguments["isMC"] = isMC
 	arguments["addNTuples"] = args.addNTuples
 	arguments["year"] = 2017
@@ -282,6 +281,7 @@ def main():
 		GT = '102X_upgrade2018_realistic_v18'
 		if not isMC:
 			GT = '102X_dataRun2_Sep2018ABC_v2'
+	arguments["GT"] = GT
 	
 	prefix = "muons_"	
 	cmssw_cfg = open('setup.py').read()
@@ -404,9 +404,9 @@ def main():
 
 
 	lumi_mask = ""
-	GT = "94X_mc2017_realistic_v14"
-	if args.add2016:
-		GT = "80X_mcRun2_asymptotic_2016_TrancheIV_v6"
+	# GT = "94X_mc2017_realistic_v14"
+	# if args.add2016:
+	# 	GT = "80X_mcRun2_asymptotic_2016_TrancheIV_v6"
 	if args.data:
 		if args.electrons: 
 			lumi_mask = "/afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions17/13TeV/ReReco/Cert_294927-306462_13TeV_EOY2017ReReco_Collisions17_JSON.txt"
@@ -421,7 +421,7 @@ def main():
 				lumi_mask = "/afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/13TeV/ReReco/Cert_314472-325175_13TeV_17SeptEarlyReReco2018ABC_PromptEraD_Collisions18_JSON_MuonPhys.txt"
 			if args.do2016:
 				lumi_mask = "/afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/ReReco/Final/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON_MuonPhys.txt"
-		GT = "94X_dataRun2_ReReco_EOY17_v6"
+		# GT = "94X_dataRun2_ReReco_EOY17_v6"
 
 
 #			lumi_mask = '/afs/cern.ch/work/j/jschulte/test/CMSSW_10_2_15_patch1/src/SUSYBSMAnalysis/Zprime2muAnalysis/test/runAnalysis/crab/crab_dileptonAna_muons_2016_SingleMuonRun2016B-23Sep2016_v3/results/notFinishedLumis.json'
