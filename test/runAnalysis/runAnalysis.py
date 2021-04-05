@@ -274,12 +274,12 @@ def main():
 	if args.do2016:
 		arguments["year"] = 2016
 		GT = '80X_mcRun2_asymptotic_2016_miniAODv2_v1'
-		if not isMC:
+		if args.data:
 			GT = '80X_dataRun2_2016SeptRepro_v6'
 	if args.do2018:
 		arguments["year"] = 2018
 		GT = '102X_upgrade2018_realistic_v18'
-		if not isMC:
+		if args.data:
 			GT = '102X_dataRun2_Sep2018ABC_v2'
 	arguments["GT"] = GT
 	
