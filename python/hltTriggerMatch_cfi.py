@@ -47,8 +47,8 @@ trigger_match = 'userFloat("TriggerMatchPt") > %(trigger_pt_threshold)i ' % loca
 
 #overall_prescale = 1
 overall_prescale = 350
-prescaled_trigger_pt_threshold = 24
-prescaled_offline_pt_threshold = 27
+prescaled_trigger_pt_threshold = 27
+prescaled_offline_pt_threshold = 30
 #prescaled_trigger_paths = ['HLT_L1SingleMuOpen_v1']# for first collisions
 #prescaled_trigger_paths = ['HLT_L1SingleMuOpen_v1','HLT_L1SingleMu3p5_v1']
 #prescaled_trigger_paths = ['HLT_Mu27_v1']
