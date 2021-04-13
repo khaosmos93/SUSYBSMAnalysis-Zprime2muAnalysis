@@ -311,18 +311,37 @@ for cut_name, Selection in cuts.iteritems():
 
 if addNTuples:
 
-	process.SimpleNtupler = cms.EDAnalyzer('SimpleNtupler_miniAOD',
-					   dimu_src = cms.InputTag('Our2018MuonsPlusMuonsMinus'),
-						met_src = cms.InputTag("slimmedMETs"),
-						jet_src = cms.InputTag("slimmedJets"),
-					   beamspot_src = cms.InputTag('offlineBeamSpot'),
-					   vertices_src = cms.InputTag('offlineSlimmedPrimaryVertices'),
-	# 								TriggerResults_src = cms.InputTag('TriggerResults', '', 'PAT'),	#mc
-								TriggerResults_src = cms.InputTag('TriggerResults', '', 'RECO'),	#data
-					   genEventInfo = cms.untracked.InputTag('generator'),
-					   metFilter = cms.VInputTag( cms.InputTag("Flag_HBHENoiseFilter"), cms.InputTag("Flag_HBHENoiseIsoFilter"), cms.InputTag("Flag_EcalDeadCellTriggerPrimitiveFilter"), cms.InputTag("Flag_eeBadScFilter"), cms.InputTag("Flag_globalTightHalo2016Filter")),
-					   doElectrons = cms.bool(False),
-					   )
+	# process.SimpleNtupler = cms.EDAnalyzer('SimpleNtupler_miniAOD',
+	# 				   dimu_src = cms.InputTag('Our2018MuonsPlusMuonsMinus'),
+	# 					met_src = cms.InputTag("slimmedMETs"),
+	# 					jet_src = cms.InputTag("slimmedJets"),
+	# 				   beamspot_src = cms.InputTag('offlineBeamSpot'),
+	# 				   vertices_src = cms.InputTag('offlineSlimmedPrimaryVertices'),
+	# # 								TriggerResults_src = cms.InputTag('TriggerResults', '', 'PAT'),	#mc
+	# 							TriggerResults_src = cms.InputTag('TriggerResults', '', 'RECO'),	#data
+	# 				   genEventInfo = cms.untracked.InputTag('generator'),
+	# 				   metFilter = cms.VInputTag( cms.InputTag("Flag_HBHENoiseFilter"), cms.InputTag("Flag_HBHENoiseIsoFilter"), cms.InputTag("Flag_EcalDeadCellTriggerPrimitiveFilter"), cms.InputTag("Flag_eeBadScFilter"), cms.InputTag("Flag_globalTightHalo2016Filter")),
+	# 				   doElectrons = cms.bool(False),
+	# 				   )
+
+	process.SimpleNtupler = cms.EDAnalyzer('NtuplerLLJets',
+		dimu_src = cms.InputTag('Our2018MuonsPlusMuonsMinus'),
+		met_src = cms.InputTag("slimmedMETs"),
+		jet_src = cms.InputTag("slimmedJets"),
+		beamspot_src = cms.InputTag('offlineBeamSpot'),
+		vertices_src = cms.InputTag('offlineSlimmedPrimaryVertices'),
+		TriggerResults_src = cms.InputTag('TriggerResults', '', 'RECO'),
+		genEventInfo = cms.untracked.InputTag('generator'),
+		metFilter = cms.VInputTag(
+			cms.InputTag("Flag_HBHENoiseFilter"),
+			cms.InputTag("Flag_HBHENoiseIsoFilter"),
+			cms.InputTag("Flag_EcalDeadCellTriggerPrimitiveFilter"),
+			cms.InputTag("Flag_eeBadScFilter"),
+			cms.InputTag("Flag_globalTightHalo2016Filter")
+		),
+		doElectrons = cms.bool(False),
+	)
+
 	if isMC:
 		process.load('SUSYBSMAnalysis.Zprime2muAnalysis.PrunedMCLeptons_cfi')
 		obj = process.prunedMCLeptons
