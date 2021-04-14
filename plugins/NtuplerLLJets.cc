@@ -270,6 +270,8 @@ private:
     std::vector<float> jet_pt;
     std::vector<float> jet_eta;
     std::vector<float> jet_phi;
+    std::vector<float> jet_partonFlavour;
+    std::vector<float> jet_hadronFlavour;
     std::vector<float> jet_NHF;
     std::vector<float> jet_NEMF;
     std::vector<float> jet_CHF;
@@ -513,6 +515,8 @@ NtuplerLLJets::NtuplerLLJets(const edm::ParameterSet& cfg)
     tree->Branch("jet_pt", &t.jet_pt);
     tree->Branch("jet_eta", &t.jet_eta);
     tree->Branch("jet_phi", &t.jet_phi);
+    tree->Branch("jet_partonFlavour", &t.jet_partonFlavour);
+    tree->Branch("jet_hadronFlavour", &t.jet_hadronFlavour);
     tree->Branch("jet_NHF", &t.jet_NHF);
     tree->Branch("jet_NEMF", &t.jet_NEMF);
     tree->Branch("jet_CHF", &t.jet_CHF);
@@ -1333,6 +1337,8 @@ void NtuplerLLJets::analyze(const edm::Event& event, const edm::EventSetup&) {
             t.jet_pt.push_back( itJet->pt() );
             t.jet_eta.push_back( itJet->eta() );
             t.jet_phi.push_back( itJet->phi() );
+            t.jet_partonFlavour.push_back( itJet->partonFlavour() );
+            t.jet_hadronFlavour.push_back( itJet->hadronFlavour() );
             t.jet_NHF.push_back( itJet->neutralHadronEnergyFraction() );
             t.jet_NEMF.push_back( itJet->neutralEmEnergyFraction() );
             t.jet_CHF.push_back( itJet->chargedHadronEnergyFraction() );
