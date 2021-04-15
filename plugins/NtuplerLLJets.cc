@@ -1390,31 +1390,31 @@ void NtuplerLLJets::analyze(const edm::Event& event, const edm::EventSetup&) {
             auto set = itJet->currentJECSet();
             auto levels = itJet->availableJECLevels(set);
             if (std::find(levels.begin(), levels.end(), "Uncorrected") != levels.end()) {
-                t.jet_pt_Uncorrected.push_back(itJet->correctedJet("Uncorrected", "none", set));
+                t.jet_pt_Uncorrected.push_back(itJet->correctedJet("Uncorrected", "none", set).pt());
             }
             else {
                 t.jet_pt_Uncorrected.push_back(-999.);
             }
             if (std::find(levels.begin(), levels.end(), "L1FastJet") != levels.end()) {
-                t.jet_pt_L1FastJet.push_back(itJet->correctedJet("L1FastJet", "none", set));
+                t.jet_pt_L1FastJet.push_back(itJet->correctedJet("L1FastJet", "none", set).pt());
             }
             else {
                 t.jet_pt_L1FastJet.push_back(-999.);
             }
             if (std::find(levels.begin(), levels.end(), "L2Relative") != levels.end()) {
-                t.jet_pt_L2Relative.push_back(itJet->correctedJet("L2Relative", "none", set));
+                t.jet_pt_L2Relative.push_back(itJet->correctedJet("L2Relative", "none", set).pt());
             }
             else {
                 t.jet_pt_L2Relative.push_back(-999.);
             }
             if (std::find(levels.begin(), levels.end(), "L3Absolute") != levels.end()) {
-                t.jet_pt_L3Absolute.push_back(itJet->correctedJet("L3Absolute", "none", set));
+                t.jet_pt_L3Absolute.push_back(itJet->correctedJet("L3Absolute", "none", set).pt());
             }
             else {
                 t.jet_pt_L3Absolute.push_back(-999.);
             }
             if (std::find(levels.begin(), levels.end(), "L2L3Residual") != levels.end()) {
-                t.jet_pt_L2L3Residual.push_back(itJet->correctedJet("L2L3Residual", "none", set));
+                t.jet_pt_L2L3Residual.push_back(itJet->correctedJet("L2L3Residual", "none", set).pt());
             }
             else {
                 t.jet_pt_L2L3Residual.push_back(-999.);
