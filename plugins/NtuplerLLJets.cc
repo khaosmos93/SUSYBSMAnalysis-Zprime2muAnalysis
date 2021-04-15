@@ -268,6 +268,11 @@ private:
 
     int nJets;
     std::vector<float> jet_pt;
+    std::vector<float> jet_pt_Uncorrected;
+    std::vector<float> jet_pt_L1FastJet;
+    std::vector<float> jet_pt_L2Relative;
+    std::vector<float> jet_pt_L3Absolute;
+    std::vector<float> jet_pt_L2L3Residual;
     std::vector<float> jet_eta;
     std::vector<float> jet_phi;
     std::vector<float> jet_partonFlavour;
@@ -510,9 +515,13 @@ NtuplerLLJets::NtuplerLLJets(const edm::ParameterSet& cfg)
     tree->Branch("METFilter", &t.METFilter, "METFilter/O");
     tree->Branch("met_pt", &t.met_pt, "met_pt/F");
     tree->Branch("met_phi", &t.met_phi, "met_phi/F");
-
     tree->Branch("nJets", &t.nJets, "nJets/I");
     tree->Branch("jet_pt", &t.jet_pt);
+    tree->Branch("jet_pt_Uncorrected", &t.jet_pt_Uncorrected);
+    tree->Branch("jet_pt_L1FastJet", &t.jet_pt_L1FastJet);
+    tree->Branch("jet_pt_L2Relative", &t.jet_pt_L2Relative);
+    tree->Branch("jet_pt_L3Absolute", &t.jet_pt_L3Absolute);
+    tree->Branch("jet_pt_L2L3Residual", &t.jet_pt_L2L3Residual);
     tree->Branch("jet_eta", &t.jet_eta);
     tree->Branch("jet_phi", &t.jet_phi);
     tree->Branch("jet_partonFlavour", &t.jet_partonFlavour);
@@ -1353,28 +1362,62 @@ void NtuplerLLJets::analyze(const edm::Event& event, const edm::EventSetup&) {
             t.jet_pfDeepCSVJetTags_probbb.push_back( itJet->bDiscriminator("pfDeepCSVJetTags:probbb") );
             t.jet_pfDeepCSVJetTags_probcc.push_back( itJet->bDiscriminator("pfDeepCSVJetTags:probcc") );
 
-            // HERE
-            TString str_0 = TString::Format("%5d: (%.2f, %.2f, %.2f, %d, %d)",
-                                            nJets,
-                                            itJet->pt(),
-                                            itJet->eta(),
-                                            itJet->phi(),
-                                            itJet->partonFlavour(),
-                                            itJet->hadronFlavour());
-            std::cout << str_0 << std::endl;
-            for(auto set : itJet->availableJECSets()) {
-                std::cout << "\tJET set: " << set << std::endl;
-                for(auto level : itJet->availableJECLevels(set)) {
-                    auto corrJet = itJet->correctedJet(level, "none", set);
-                    TString str_1 = TString::Format("\t\t%s: (%.2f, %.2f, %.2f, %d, %d)",
-                                                    level.c_str(),
-                                                    corrJet.pt(),
-                                                    corrJet.eta(),
-                                                    corrJet.phi(),
-                                                    corrJet.partonFlavour(),
-                                                    corrJet.hadronFlavour());
-                    std::cout << str_1 << std::endl;
-                }
+            // JEC test
+            // TString str_0 = TString::Format("%5d: (%.2f, %.2f, %.2f, %d, %d)",
+            //                                 nJets,
+            //                                 itJet->pt(),
+            //                                 itJet->eta(),
+            //                                 itJet->phi(),
+            //                                 itJet->partonFlavour(),
+            //                                 itJet->hadronFlavour());
+            // std::cout << str_0 << std::endl;
+            // for(auto set : itJet->availableJECSets()) {
+            //     std::cout << "\tJET set: " << set << std::endl;
+            //     for(auto level : itJet->availableJECLevels(set)) {
+            //         auto corrJet = itJet->correctedJet(level, "none", set);
+            //         TString str_1 = TString::Format("\t\t%s: (%.2f, %.2f, %.2f, %d, %d)",
+            //                                         level.c_str(),
+            //                                         corrJet.pt(),
+            //                                         corrJet.eta(),
+            //                                         corrJet.phi(),
+            //                                         corrJet.partonFlavour(),
+            //                                         corrJet.hadronFlavour());
+            //         std::cout << str_1 << std::endl;
+            //     }
+            // }
+
+            // JEC
+            auto set = itJet->currentJECSet();
+            auto levels = itJet->availableJECLevels(set);
+            if (std::find(levels.begin(), levels.end(), "Uncorrected") != levels.end()) {
+                t.jet_pt_Uncorrected.push_back(itJet->correctedJet("Uncorrected", "none", set));
+            }
+            else {
+                t.jet_pt_Uncorrected.push_back(-999.);
+            }
+            if (std::find(levels.begin(), levels.end(), "L1FastJet") != levels.end()) {
+                t.jet_pt_L1FastJet.push_back(itJet->correctedJet("L1FastJet", "none", set));
+            }
+            else {
+                t.jet_pt_L1FastJet.push_back(-999.);
+            }
+            if (std::find(levels.begin(), levels.end(), "L2Relative") != levels.end()) {
+                t.jet_pt_L2Relative.push_back(itJet->correctedJet("L2Relative", "none", set));
+            }
+            else {
+                t.jet_pt_L2Relative.push_back(-999.);
+            }
+            if (std::find(levels.begin(), levels.end(), "L3Absolute") != levels.end()) {
+                t.jet_pt_L3Absolute.push_back(itJet->correctedJet("L3Absolute", "none", set));
+            }
+            else {
+                t.jet_pt_L3Absolute.push_back(-999.);
+            }
+            if (std::find(levels.begin(), levels.end(), "L2L3Residual") != levels.end()) {
+                t.jet_pt_L2L3Residual.push_back(itJet->correctedJet("L2L3Residual", "none", set));
+            }
+            else {
+                t.jet_pt_L2L3Residual.push_back(-999.);
             }
 
             nJets++;
