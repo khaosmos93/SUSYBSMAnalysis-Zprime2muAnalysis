@@ -1353,6 +1353,30 @@ void NtuplerLLJets::analyze(const edm::Event& event, const edm::EventSetup&) {
             t.jet_pfDeepCSVJetTags_probbb.push_back( itJet->bDiscriminator("pfDeepCSVJetTags:probbb") );
             t.jet_pfDeepCSVJetTags_probcc.push_back( itJet->bDiscriminator("pfDeepCSVJetTags:probcc") );
 
+            // HERE
+            TString str_0 = TString::Format("%5d: (%.2f, %.2f, %.2f, %d, %d)",
+                                            nJets,
+                                            itJet->pt(),
+                                            itJet->eta(),
+                                            itJet->phi(),
+                                            itJet->partonFlavour(),
+                                            itJet->hadronFlavour());
+            std::cout << str_0 << std::endl;
+            for(auto set : itJet->availableJECSets()) {
+                cout << '\tJET set: ' << set << endl;
+                for(auto level : itJet->availableJECLevels(set)) {
+                    auto corrJet = itJet->correctedJet(level, "none", set);
+                    TString str_1 = TString::Format("\t\t%s: (%.2f, %.2f, %.2f, %d, %d)",
+                                                    level.c_str(),
+                                                    corrJet->pt(),
+                                                    corrJet->eta(),
+                                                    corrJet->phi(),
+                                                    corrJet->partonFlavour(),
+                                                    corrJet->hadronFlavour());
+                    cout << str_1 << endl;
+                }
+            }
+
             nJets++;
         }
         t.nJets = nJets;
