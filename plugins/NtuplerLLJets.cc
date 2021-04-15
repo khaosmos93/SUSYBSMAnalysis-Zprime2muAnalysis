@@ -1363,17 +1363,17 @@ void NtuplerLLJets::analyze(const edm::Event& event, const edm::EventSetup&) {
                                             itJet->hadronFlavour());
             std::cout << str_0 << std::endl;
             for(auto set : itJet->availableJECSets()) {
-                cout << '\tJET set: ' << set << endl;
+                std::cout << "\tJET set: " << set << std::endl;
                 for(auto level : itJet->availableJECLevels(set)) {
                     auto corrJet = itJet->correctedJet(level, "none", set);
                     TString str_1 = TString::Format("\t\t%s: (%.2f, %.2f, %.2f, %d, %d)",
                                                     level.c_str(),
-                                                    corrJet->pt(),
-                                                    corrJet->eta(),
-                                                    corrJet->phi(),
-                                                    corrJet->partonFlavour(),
-                                                    corrJet->hadronFlavour());
-                    cout << str_1 << endl;
+                                                    corrJet.pt(),
+                                                    corrJet.eta(),
+                                                    corrJet.phi(),
+                                                    corrJet.partonFlavour(),
+                                                    corrJet.hadronFlavour());
+                    std::cout << str_1 << std::endl;
                 }
             }
 
