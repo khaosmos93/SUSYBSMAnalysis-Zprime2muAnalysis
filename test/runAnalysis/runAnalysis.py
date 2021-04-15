@@ -232,6 +232,7 @@ def main():
 	#parser.add_argument("--allLocal", action="store_true", dest="allLocal", default=False,help="run a full list of samples locally")
 	parser.add_argument("--file", action="store", dest="inputFile", type=str  , default="",help="file to run over locally")
 	parser.add_argument("--dataset", action="store", dest="inputDataset", type=str , default="",help="dataset to run over locally")
+	parser.add_argument("--datasetName", action="store", dest="inputDatasetName", type=str , default="",help="name of dataset to run over locally (in samples.py)")
 	parser.add_argument("-s", "--submit", action="store_true", dest="submit", default=False,help="submit to CRAB")
 	parser.add_argument("-r", "--resolution", action="store_true", dest="resolution", default=False,help="run jobs for resolution studies")
 	parser.add_argument("--pdf", action="store_true", dest="pdf", default=False,help="produce trees for PDF studies")
@@ -389,8 +390,9 @@ def main():
 		validSample = False
 		for sample in samples:
 			if args.inputDataset == sample[1]:
-				validSample = True
-				samples = [sample]
+				if args.inputDatasetName == "" or args.inputDatasetName == sample[0]:
+					validSample = True
+					samples = [sample]
 
 		if args.inputDataset=="/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3_ext2-v1/MINIAODSIM":
 			validSample = True
